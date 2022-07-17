@@ -15,25 +15,52 @@ o peso das arestas entre cada par de vértices
 #include <stdio.h>
 #include <stdlib.h>
 
-typedef struct grafo
+typedef struct grafof
 {
     int vert;
     int **adj;
-} grafo;
+    double **ferom;
+} grafof;
 
 int main()
 {
-    grafo rot;
+
+    // inicializar parâmetros
+    grafof rot;
+    double factF = 0.1;
+    int count = 0, nIter = 30;
 
     scanf("%d", &rot.vert);
     rot.adj = (int**) malloc(sizeof(int*) * rot.vert);
+    rot.ferom = (double**) malloc(sizeof(double*) *rot.vert);
 
     for(int i = 0; i < rot.vert; i++)
         rot.adj[i] = (int*) malloc(sizeof(int) * rot.vert);
 
+    
+    for(int i = 0; i < rot.vert; i++)
+        rot.ferom[i] = (double*) malloc(sizeof(double) * rot.vert);
+
+    // inicializar matriz de feromonios
+    for(int i = 0; i < rot.vert; i++)
+        for(int j = 0; j < rot.vert; j++)
+            rot.ferom[i][j] = factF;
+
+    // leitura dos pesos de cada aresta na matriz de adjacencia
     for(int i = 0; i < rot.vert; i++)
         for(int j = 0; j < rot.vert; j++)
             scanf("%d", &rot.adj[i][j]);
+
+    while(count < nIter)
+    {
+        // construir soluções possíveis
+
+        // atualizar matriz de feromonios
+
+        // iterador++
+        count++;
+
+    }
 
     return 0;
 }
