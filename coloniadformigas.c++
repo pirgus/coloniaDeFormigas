@@ -22,6 +22,9 @@ typedef struct grafof
     double **ferom;
 } grafof;
 
+int randInt(int max, int min);
+double randouble(int max, int min); 
+
 int main()
 {
     // inicializar parâmetros
@@ -73,4 +76,24 @@ int main()
     }
 
     return 0;
+}
+
+int randInt(int max, int min)
+{
+    //srand(time(NULL));
+    int r = rand();
+    r = (min + r / (RAND_MAX / (max - min + 1) + 1));
+    while(r == 0)
+        r = (min + rand() / (RAND_MAX / (max - min + 1) + 1));
+    //printf("random da funcao int %d \n", r);
+    return r;
+}
+
+double randouble(int max, int min)
+{
+    double r = rand();
+    r = (r/(RAND_MAX/(max-min)));
+    while(r == 0)
+        r = (double(rand())/(RAND_MAX/(max-min)));
+    return r;
 }
