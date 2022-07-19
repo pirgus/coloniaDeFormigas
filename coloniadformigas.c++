@@ -37,19 +37,23 @@ typedef struct grafof
 int randInt(int max, int min);
 void atualizaMatriz(grafof rot);
 double randouble(int max, int min); 
-void formigaAnda(formiga ant, int **adj);
-double probCalculo(int index, int j, int **adj);
+void formigaAnda(formiga ant, grafof grafo, int vert);
+double probCalculo(int index, int j, grafof grafo);
+
+#define factF 0.1
+#define nIter 30
+#define alfa 1
+#define beta 1
+#define diminuiFer 0.01
+#define atualizaFer 10
 
 int main()
 {
     // inicializar parâmetros
     formiga a1;
     grafof rot;
-    double factF = 0.1;
-    int count = 0, nIter = 30;
-    double alfa = 1, beta = 1;
-    double diminuiFer = 0.01;
-    double atualizaFer = 10;
+    int count = 0;
+    srand(time(NULL));
 
     // quantos vertices?
     scanf("%d", &rot.vert);
@@ -83,7 +87,7 @@ int main()
     while(count < nIter)
     {
         // construir soluções possíveis
-        formigaAnda(a1, rot.adj, rot.vert); // criar funcao para fazer a rota da formiga e armazená-la
+        formigaAnda(a1, rot, rot.vert); // criar funcao para fazer a rota da formiga e armazená-la
 
         // atualizar matriz de feromonios
         atualizaMatriz(rot);
@@ -116,21 +120,70 @@ double randouble(int max, int min)
     return r;
 }
 
-void formigaAnda(formiga ant, int **adj, int vert){
+void formigaAnda(formiga ant, grafof grafo, int vert){
     ant.visitados.push_back(0);
     int index = 0;
     for(int j = 0; j < vert; j++)
     {
         double probab;
-        probab = probCalculo(index, j, adj);
+        probab = probCalculo(index, j, grafo);
+        double random;
+        random = randouble(1, 0);
+
+        if(random <= probab)
+        {
+            ant.visitados.push_back(j);
+            break;
+        }
+    }
+
+    bool nTerminou = true;
+
+    while(nTerminou)
+    {
+        index = ant.visitados.back();
+        for(int j = 0; j < vert; j++)
+        {
+            double probab;
+            probab = probCalculo(index, j, grafo);
+            double random;
+            random = randouble(1, 0);
+
+            if(random <= probab)
+            {
+                ant.visitados.push_back(j);
+                break;
+            }
+        }
+
+        if(ant.visitados.size() == grafo.vert)
+            nTerminou = false;
     }
 
 }
 
-double probCalculo(int index, int j, int **adj){
+double probCalculo(int index, int j, grafof grafo){
+    double nVisib;
+    nVisib = 1.0 / grafo.adj[index][j];
+    double p;
+    double soma = 0;
+    for(int i = 0; i < grafo.vert; i++){
+        soma += (grafo.ferom[index][i] * (1.0/(grafo.adj[index][i])));
+    } //; ==> laço for para calcular o somatorio de todas as probabilidades
+    p = (grafo.ferom[index][j] * nVisib) / (soma);
 
+    return p;
 }
 
 void atualizaMatriz(grafof rot){
-
+    for(int i = 0; i < rot.vert; i++)
+    {
+        for(int j = 0; j < rot.vert; j++)
+        {
+            rot.ferom[i][j] = (1 - diminuiFer) * rot.ferom[i][j]; // + SOMATORIO DO FEROMONIO QUE TODAS AS FORMIGAS DEIXARAM NESSA ARESTA
+                                                                  // PRECISA FAZER O CALCULO DO FEROMONIO
+                                                                  // DEIXADO POR TODAS AS FORMIGAS NA
+                                                                  // ARESTA, AINDA NAO APLIQUEI
+        }
+    }
 }
