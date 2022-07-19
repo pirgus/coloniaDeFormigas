@@ -22,7 +22,10 @@ typedef struct grafof
     double **ferom;
 } grafof;
 
+
 int randInt(int max, int min);
+formiga andaFormiga(formiga ant);
+grafof atualizaMatriz(grafof rot);
 double randouble(int max, int min); 
 
 int main()
@@ -37,6 +40,7 @@ int main()
 
     // quantos vertices?
     scanf("%d", &rot.vert);
+    vector<int> a1, a2, a3, a4, a5;
 
     // alocação da matriz de adjacencia
     rot.adj = (int**) malloc(sizeof(int*) * rot.vert);
@@ -67,8 +71,14 @@ int main()
     while(count < nIter)
     {
         // construir soluções possíveis
+        formigaAnda(a1, rot.adj);
+        formigaAnda(a2, rot.adj);
+        formigaAnda(a3, rot.adj);
+        formigaAnda(a4, rot.adj);
+        formigaAnda(a5, rot.adj);
 
         // atualizar matriz de feromonios
+        atualizaMatriz(rot);
 
         // iterador++
         count++;
@@ -97,3 +107,4 @@ double randouble(int max, int min)
         r = (double(rand())/(RAND_MAX/(max-min)));
     return r;
 }
+
