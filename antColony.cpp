@@ -15,5 +15,5 @@ o peso das arestas entre cada par de vértices
 */
 
 int main(){
-
+    
 }

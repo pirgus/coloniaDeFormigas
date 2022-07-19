@@ -14,7 +14,18 @@ o peso das arestas entre cada par de vértices
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <iostream>
+#include <string>
+#include <map>
 #include <vector>
+#include <cstdlib>
+#include <fstream>
+#include <ctime>
+using namespace std;
+
+typedef struct formiga{
+    vector<int> visitados;
+};
 
 typedef struct grafof
 {
@@ -23,14 +34,16 @@ typedef struct grafof
     double **ferom;
 } grafof;
 
-
 int randInt(int max, int min);
-grafof atualizaMatriz(grafof rot);
+void atualizaMatriz(grafof rot);
 double randouble(int max, int min); 
+void formigaAnda(formiga ant, int **adj);
+double probCalculo(int index, int j, int **adj);
 
 int main()
 {
     // inicializar parâmetros
+    formiga a1;
     grafof rot;
     double factF = 0.1;
     int count = 0, nIter = 30;
@@ -70,8 +83,10 @@ int main()
     while(count < nIter)
     {
         // construir soluções possíveis
+        formigaAnda(a1, rot.adj, rot.vert); // criar funcao para fazer a rota da formiga e armazená-la
 
         // atualizar matriz de feromonios
+        atualizaMatriz(rot);
 
         // iterador++
         count++;
@@ -101,3 +116,21 @@ double randouble(int max, int min)
     return r;
 }
 
+void formigaAnda(formiga ant, int **adj, int vert){
+    ant.visitados.push_back(0);
+    int index = 0;
+    for(int j = 0; j < vert; j++)
+    {
+        double probab;
+        probab = probCalculo(index, j, adj);
+    }
+
+}
+
+double probCalculo(int index, int j, int **adj){
+
+}
+
+void atualizaMatriz(grafof rot){
+
+}
