@@ -14,6 +14,7 @@ o peso das arestas entre cada par de vértices
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <vector>
 
 typedef struct grafof
 {
@@ -24,7 +25,6 @@ typedef struct grafof
 
 
 int randInt(int max, int min);
-formiga andaFormiga(formiga ant);
 grafof atualizaMatriz(grafof rot);
 double randouble(int max, int min); 
 
@@ -40,7 +40,6 @@ int main()
 
     // quantos vertices?
     scanf("%d", &rot.vert);
-    vector<int> a1, a2, a3, a4, a5;
 
     // alocação da matriz de adjacencia
     rot.adj = (int**) malloc(sizeof(int*) * rot.vert);
@@ -71,14 +70,8 @@ int main()
     while(count < nIter)
     {
         // construir soluções possíveis
-        formigaAnda(a1, rot.adj);
-        formigaAnda(a2, rot.adj);
-        formigaAnda(a3, rot.adj);
-        formigaAnda(a4, rot.adj);
-        formigaAnda(a5, rot.adj);
 
         // atualizar matriz de feromonios
-        atualizaMatriz(rot);
 
         // iterador++
         count++;
