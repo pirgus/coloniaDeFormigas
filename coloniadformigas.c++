@@ -40,12 +40,19 @@ double randouble(int max, int min);
 void formigaAnda(formiga ant, grafof grafo, int vert);
 double probCalculo(int index, int j, grafof grafo);
 
-#define factF 0.1
-#define nIter 30
-#define alfa 1
-#define beta 1
-#define diminuiFer 0.01
-#define atualizaFer 10
+//#define factF 0.1
+//#define nIter 30
+//#define alfa 1
+//#define beta 1
+//#define diminuiFer 0.01
+//#define atualizaFer 10
+
+const double factF = 0.1;
+const int nIter = 30;
+const int alfa = 1;
+const int beta = 1;
+const int diminuiFer = 0.01;
+const int atualizaFer = 10;
 
 int main()
 {
