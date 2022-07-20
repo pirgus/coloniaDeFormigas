@@ -196,9 +196,6 @@ void atualizaMatriz(grafof rot){
         for(int j = 0; j < rot.vert; j++)
         {
             rot.ferom[i][j] = (1 - diminuiFer) * rot.ferom[i][j]; // + SOMATORIO DO FEROMONIO QUE TODAS AS FORMIGAS DEIXARAM NESSA ARESTA
-                                                                  // PRECISA FAZER O CALCULO DO FEROMONIO
-                                                                  // DEIXADO POR TODAS AS FORMIGAS NA
-                                                                  // ARESTA, AINDA NAO APLIQUEI
         }
     }
 }
