@@ -151,6 +151,7 @@ void formigaAnda(formiga ant, grafof grafo, int vert){
 
             if(random <= probab)
             {
+                // falta verificar se o vértice ja nao foi visitado !!!!!!!!!!!!!!!
                 ant.visitados.push_back(j);
                 break;
             }
