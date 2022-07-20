@@ -126,12 +126,19 @@ void formigaAnda(formiga ant, grafof grafo, int vert){
     for(int j = 0; j < vert; j++)
     {
         double probab;
-        probab = probCalculo(index, j, grafo);
+        if(grafo.adj[index][j] > 0)
+            probab = probCalculo(index, j, grafo);
         double random;
         random = randouble(1, 0);
 
         if(random <= probab)
         {
+            for(int x = 0; x < ant.visitados.size(); x++)
+            {
+                if(j == ant.visitados[x]){
+                    break;
+                }
+            }
             ant.visitados.push_back(j);
             break;
         }
