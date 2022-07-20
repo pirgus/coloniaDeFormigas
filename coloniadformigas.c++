@@ -21,11 +21,12 @@ o peso das arestas entre cada par de vértices
 #include <cstdlib>
 #include <fstream>
 #include <ctime>
+#include <algorithm>
 using namespace std;
 
 typedef struct formiga{
     vector<int> visitados;
-};
+} formiga;
 
 typedef struct grafof
 {
@@ -37,7 +38,7 @@ typedef struct grafof
 int randInt(int max, int min);
 void atualizaMatriz(grafof rot);
 double randouble(int max, int min); 
-void formigaAnda(formiga ant, grafof grafo, int vert);
+void formigaAnda(formiga ant, grafof grafo);
 double probCalculo(int index, int j, grafof grafo);
 
 //#define factF 0.1
@@ -53,11 +54,13 @@ const int alfa = 1;
 const int beta = 1;
 const int diminuiFer = 0.01;
 const int atualizaFer = 10;
+const int pVertice = 0;
+const int ultimoVertice = 8;
 
 int main()
 {
     // inicializar parâmetros
-    formiga a1;
+    formiga a1, a2, a3;
     grafof rot;
     int count = 0;
     srand(time(NULL));
@@ -94,7 +97,9 @@ int main()
     while(count < nIter)
     {
         // construir soluções possíveis
-        formigaAnda(a1, rot, rot.vert); // criar funcao para fazer a rota da formiga e armazená-la
+        formigaAnda(a1, rot); // criar funcao para fazer a rota da formiga e armazená-la
+        formigaAnda(a2, rot);
+        formigaAnda(a3, rot);
 
         // atualizar matriz de feromonios
         atualizaMatriz(rot);
@@ -127,54 +132,35 @@ double randouble(int max, int min)
     return r;
 }
 
-void formigaAnda(formiga ant, grafof grafo, int vert){
-    ant.visitados.push_back(0);
-    int index = 0;
-    for(int j = 0; j < vert; j++)
-    {
-        double probab;
-        if(grafo.adj[index][j] > 0)
-            probab = probCalculo(index, j, grafo);
-        double random;
-        random = randouble(1, 0);
+void formigaAnda(formiga ant, grafof grafo){
+    ant.visitados.push_back(pVertice);
+    int vAtual = pVertice;
+    vector<double> probabilidades;
 
-        if(random <= probab)
-        {
-            for(int x = 0; x < ant.visitados.size(); x++)
-            {
-                if(j == ant.visitados[x]){
-                    break;
-                }
+    while(ant.visitados.back() != ultimoVertice){
+        double somatorio = 0;
+        for(int i = 0; i < grafo.vert; i++){
+            if(grafo.adj[vAtual][i] != 0){
+                somatorio += grafo.ferom[vAtual][i] * (1.0 / (grafo.adj[vAtual][i]));
             }
-            ant.visitados.push_back(j);
-            break;
-        }
-    }
-
-    bool nTerminou = true;
-
-    while(nTerminou)
-    {
-        index = ant.visitados.back();
-        for(int j = 0; j < vert; j++)
-        {
-            double probab;
-            probab = probCalculo(index, j, grafo);
-            double random;
-            random = randouble(1, 0);
-
-            if(random <= probab)
-            {
-                // falta verificar se o vértice ja nao foi visitado !!!!!!!!!!!!!!!
-                ant.visitados.push_back(j);
-                break;
+            else{
+                somatorio += 0;
             }
         }
 
-        if(ant.visitados.size() == grafo.vert)
-            nTerminou = false;
+        double prob = 0;
+        for(int i = 0; i < grafo.vert; i++){
+            if(grafo.adj[vAtual][i] != 0 && !(any_of(ant.visitados.begin(), ant.visitados.end(), i))){
+                prob = (grafo.ferom[vAtual][i] * (1.0 / (grafo.adj[vAtual][i]))) / (somatorio);
+                probabilidades.push_back(prob);
+            }
+            else{
+                probabilidades.push_back(0);
+            }
+        }
+        vAtual = escolhaAresta(probabilidades, ant.visitados);
+        ant.visitados.push_back(vAtual);
     }
-
 }
 
 double probCalculo(int index, int j, grafof grafo){
