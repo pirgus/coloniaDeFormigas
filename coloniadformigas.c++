@@ -5,7 +5,7 @@ Tema: Problema de Roteamento
 Método: Colônia de Formigas
 Estratégia: o vértice inicial é sempre o primeiro vértice do grafo.
 
-Entrada: arquivos em formato txt contendo o número de vértices que compõe o grafo o a sua devidalista de adjacências , contendo
+Entrada: arquivos em formato txt contendo o número de vértices que compõe o grafo o a sua devida lista de adjacências , contendo
 o peso das arestas entre cada par de vértices
 --> valores iguais a zero indicam a ausência de conexão entre os vértices
 --> os grafos são ponderados
@@ -38,9 +38,11 @@ typedef struct grafof
 int randInt(int max, int min);
 void atualizaMatriz(grafof rot);
 double randouble(int max, int min); 
-void formigaAnda(formiga ant, grafof grafo);
+double** formigaAnda(formiga ant, grafof grafo, double** matrizFer);
 double probCalculo(int index, int j, grafof grafo);
 int escolhaAresta(vector<double> probabilidades, vector<int> vertices);
+double formigaAndouQnt(formiga ant, grafof grafo);
+void formigaMFeromonio(double** matrizFeromonio, formiga ant, double qtdAndou);
 
 //#define factF 0.1
 //#define nIter 30
@@ -64,7 +66,14 @@ int main()
     formiga a1, a2, a3;
     grafof rot;
     int count = 0;
+    double **matrizFormigas;
     srand(time(NULL));
+
+    matrizFormigas = (double**) malloc(sizeof(double*) * rot.vert);
+    for(int i = 0; i < rot.vert; i++){
+        matrizFormigas[i] = (double*) malloc(sizeof(double) * rot.vert);
+    }
+    cout << "alocou matrizFormigas" << endl;
 
     // quantos vertices?
     scanf("%d", &rot.vert);
@@ -75,6 +84,7 @@ int main()
     for(int i = 0; i < rot.vert; i++)
         rot.adj[i] = (int*) malloc(sizeof(int) * rot.vert);
     // ----------------------------------------------------
+    cout << "alocou matriz de adjacencia" << endl;
 
     // alocação da matriz de feromonios
     rot.ferom = (double**) malloc(sizeof(double*) *rot.vert);
@@ -82,6 +92,7 @@ int main()
     for(int i = 0; i < rot.vert; i++)
         rot.ferom[i] = (double*) malloc(sizeof(double) * rot.vert);
     // -----------------------------------------------------------
+    cout << "alocou matriz de feromonio" << endl;
 
     // inicializar matriz de feromonios
     for(int i = 0; i < rot.vert; i++)
@@ -101,9 +112,9 @@ int main()
         cout << "Iteracao " << count << endl;
         cout << "***********************" << endl;
         // construir soluções possíveis
-        formigaAnda(a1, rot); // criar funcao para fazer a rota da formiga e armazená-la
-        formigaAnda(a2, rot);
-        formigaAnda(a3, rot);
+        matrizFormigas = formigaAnda(a1, rot, matrizFormigas); // criar funcao para fazer a rota da formiga e armazená-la
+        matrizFormigas = formigaAnda(a2, rot, matrizFormigas);
+        matrizFormigas = formigaAnda(a3, rot, matrizFormigas);
 
         // atualizar matriz de feromonios
         atualizaMatriz(rot);
@@ -173,9 +184,23 @@ int escolhaAresta(vector<double> probabilidades, vector<int> vertices){
     return vertice;
 }
 
-void formigaAnda(formiga ant, grafof grafo){
+double** formigaAnda(formiga ant, grafof grafo, double** matrizFer){
     ant.visitados.push_back(pVertice);
     int vAtual = pVertice;
+    double **matrizFeromonio;
+
+    // alocação da matriz de feromonios
+    matrizFeromonio = (double**) malloc(sizeof(double*) * ant.visitados.size());
+    
+    for(int i = 0; i < ant.visitados.size(); i++)
+        matrizFeromonio[i] = (double*) malloc(sizeof(double) * ant.visitados.size());
+
+    for(int i = 0; i < ant.visitados.size(); i++){
+        for(int j = 0; j < ant.visitados.size(); j++){
+            matrizFeromonio[i][j] = matrizFer[i][j];
+        }
+    }
+
     vector<double> probabilidades{0};
     //cout << "1 - probabildidades.size() no formigaAnda = " << probabilidades.size() << endl;
 
@@ -207,6 +232,37 @@ void formigaAnda(formiga ant, grafof grafo){
         ant.visitados.push_back(vAtual); 
         
     }
+
+    cout << "visitados = " << endl;
+    for(int i: ant.visitados){
+        cout << i << " - ";
+    }
+    cout << endl;
+
+    double qtdAndou = 0;
+
+    qtdAndou = formigaAndouQnt(ant, grafo);
+    formigaMFeromonio(matrizFeromonio, ant, qtdAndou);
+
+    return matrizFeromonio;
+}
+
+void formigaMFeromonio(double** matrizFeromonio, formiga ant, double qtdAndou){
+    for(int i = 0; i < ant.visitados.size(); i++){
+        matrizFeromonio[ant.visitados[i]][ant.visitados[i + 1]] += qtdAndou;
+    }
+}
+
+double formigaAndouQnt(formiga ant, grafof grafo){
+    int distancia = 0;
+    for(int i = 0; i < ant.visitados.size() - 1; i++){
+        distancia += grafo.adj[ant.visitados[i]][ant.visitados[i + 1]];
+    }
+
+    double qtdFeromonio;
+    qtdFeromonio = atualizaFer / double(distancia);
+
+    return qtdFeromonio;
 }
 
 double probCalculo(int index, int j, grafof grafo){
@@ -215,9 +271,12 @@ double probCalculo(int index, int j, grafof grafo){
     double p = 0;
     double soma = 0;
     for(int i = 0; i < grafo.vert; i++){
+        if(grafo.adj[index][i] != 0)
             soma += (grafo.ferom[index][i] * (1.0/(grafo.adj[index][i])));
+        else
+            soma += 0;
     } //; ==> laço for para calcular o somatorio de todas as probabilidades
-
+    cout << "somatorio = " << soma << endl;
     p = (grafo.ferom[index][j] * nVisib) / (soma);
     cout << "probabilidade calculada = " << p << endl;
 
