@@ -64,7 +64,7 @@ int main()
     formiga a1, a2, a3;
     grafof rot;
     int count = 0;
-    srand(time(NULL));
+    srand(std::random_device);
 
     // quantos vertices?
     scanf("%d", &rot.vert);
@@ -136,22 +136,28 @@ double randouble(int max, int min)
 int escolhaAresta(vector<double> probabilidades, vector<int> vertices){
 
     int vertice{0};
+    double prob;
 
-    vector<double> linha{0};
+    vector<double> linha;
     double ultimo_ponto{0};
-     for(int i = 0; i < probabilidades.size(); i++){
-         linha[i] = probabilidades[i] + ultimo_ponto;
-         ultimo_ponto = linha[i];
-         printf("%lf ", linha[i]);
-     }
-     printf("\n");
-     printf("chegay\n");
+    for(int i = 0; i < probabilidades.size(); i++){
+        linha.push_back(probabilidades[i] + ultimo_ponto);
+        ultimo_ponto = linha[i];
+        printf("%lf ", linha[i]);
+    }
+    printf("\n");
+    printf("chegay\n");
 
-
-    //for (int i = 0; i < vertices.size(); i++){
-        
-    //}
-
+    prob = randouble(1,0);
+    printf("Prob: %lf\n", prob);
+    //possivel problema -> sorteio do 0
+    for(int i = 0; i < linha.size(); i++){
+        if(prob <= linha[i]){
+            vertice = vertices[i];
+            printf("Escolhido: %d\n", vertice);
+            break;
+        }
+    }
     return vertice;
 }
 
@@ -187,9 +193,10 @@ void formigaAnda(formiga ant, grafof grafo){
         //printf("toaqui");
 
         //---------------------------------------------TÁ DANDO ERRO AQUIIIIIIIIIIIIIIIII----------------------------------------------------
-        //vAtual = escolhaAresta(probabilidades, ant.visitados);
+        vAtual = escolhaAresta(probabilidades, ant.visitados);
+        exit(0);
         //-----------------------------------------------------------------------------------------------
-        ant.visitados.push_back(vAtual);
+        ant.visitados.push_back(vAtual); 
         
     }
 }
