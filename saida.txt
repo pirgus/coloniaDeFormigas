@@ -1,0 +1,65 @@
+alocou matrizFormigas
+alocou matriz de adjacencia
+alocou matriz de feromonio
+leu matriz de adjacencia
+***********************
+Iteracao 0
+***********************
+6
+vertice escolhido = 6
+9
+vertice escolhido = 9
+6
+vertice escolhido = 6
+9
+vertice escolhido = 9
+6
+vertice escolhido = 6
+6
+vertice escolhido = 6
+5
+vertice escolhido = 5
+5
+vertice escolhido = 5
+2
+vertice escolhido = 2
+9
+vertice escolhido = 9
+9
+vertice escolhido = 9
+9
+vertice escolhido = 9
+5
+vertice escolhido = 5
+4
+vertice escolhido = 4
+2
+vertice escolhido = 2
+4
+vertice escolhido = 4
+4
+vertice escolhido = 4
+2
+vertice escolhido = 2
+9
+vertice escolhido = 9
+4
+vertice escolhido = 4
+4
+vertice escolhido = 4
+4
+vertice escolhido = 4
+4
+vertice escolhido = 4
+4
+vertice escolhido = 4
+4
+vertice escolhido = 4
+4
+vertice escolhido = 4
+2
+vertice escolhido = 2
+8
+vertice escolhido = 8
+visitados = 
+0 - 6 - 9 - 6 - 9 - 6 - 6 - 0 - 5 - 0 - 5 - 2 - 9 - 9 - 9 - 0 - 0 - 0 - 5 - 0 - 4 - 2 - 0 - 4 - 4 - 2 - 9 - 0 - 0 - 0 - 0 - 4 - 0 - 4 - 4 - 4 - 4 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 4 - 4 - 2 - 8 - 

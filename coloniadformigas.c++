@@ -38,7 +38,7 @@ typedef struct grafof
 int randInt(int max, int min);
 void atualizaMatriz(grafof rot);
 double randouble(int max, int min); 
-double** formigaAnda(formiga ant, grafof grafo, double** matrizFer);
+void formigaAnda(formiga ant, grafof grafo, double** matrizFer);
 double probCalculo(int index, int j, grafof grafo);
 int escolhaAresta(vector<double> probabilidades, vector<int> vertices);
 double formigaAndouQnt(formiga ant, grafof grafo);
@@ -74,6 +74,13 @@ int main()
         matrizFormigas[i] = (double*) malloc(sizeof(double) * rot.vert);
     }
     cout << "alocou matrizFormigas" << endl;
+    // preencher com nadaaaa
+    for(int i = 0; i < rot.vert; i++){
+        for(int j = 0; j < rot.vert; j++){
+            matrizFormigas[i][j] = 0.0;
+        }
+    }
+
 
     // quantos vertices?
     scanf("%d", &rot.vert);
@@ -105,16 +112,19 @@ int main()
         for(int j = 0; j < rot.vert; j++)
             scanf("%d", &rot.adj[i][j]);
     // ----------------------------------
+    cout << "leu matriz de adjacencia" << endl;
 
     while(count < nIter)
     {
         cout << "***********************" << endl;
         cout << "Iteracao " << count << endl;
         cout << "***********************" << endl;
+
         // construir soluções possíveis
-        matrizFormigas = formigaAnda(a1, rot, matrizFormigas); // criar funcao para fazer a rota da formiga e armazená-la
-        matrizFormigas = formigaAnda(a2, rot, matrizFormigas);
-        matrizFormigas = formigaAnda(a3, rot, matrizFormigas);
+        formigaAnda(a1, rot, matrizFormigas); // aqui ta dando problema, segmentation fault
+        cout << "1a formiga andou" << endl;
+        formigaAnda(a2, rot, matrizFormigas);
+        formigaAnda(a3, rot, matrizFormigas);
 
         // atualizar matriz de feromonios
         atualizaMatriz(rot);
@@ -154,25 +164,19 @@ int escolhaAresta(vector<double> probabilidades, vector<int> vertices){
 
     vector<double> linha{0};
 
-    // --------------------------------------
-    // ele tá acumulando os dados na linha e quando dou clear
-    // no vetor linha ele fica rodando pra sempre (???????)
-    // socorroooooooo
-    // acho que arrumei um pouquinho mas tá bem estranho ainda
-
     double ultimo_ponto{0};
     //cout << "probabilidades.size() no escolhaAresta = " << probabilidades.size() << endl;
     for(int i = 0; i < probabilidades.size(); i++){
         linha.push_back(probabilidades[i] + ultimo_ponto);
         ultimo_ponto = linha.back();
-        printf("linha[%d] = %lf\n", i, linha.back());
+        //printf("linha[%d] = %lf\n", i, linha.back());
     }
 
     prob = randouble(1, 0);
     //printf("probabilidade = %lf\n", prob);
 
     //possivel problema -> sorteio do 0  **=========> nao tem esse problema porque coloquei uma condicional no randouble que ele nao sorteia 0
-    cout << "linha.size() = " << linha.size() << endl;
+    //cout << "linha.size() = " << linha.size() << endl;
     for(int i = 0; i < linha.size(); i++){
         if(prob <= linha[i]){
             cout << i << endl;
@@ -184,22 +188,9 @@ int escolhaAresta(vector<double> probabilidades, vector<int> vertices){
     return vertice;
 }
 
-double** formigaAnda(formiga ant, grafof grafo, double** matrizFer){
+void formigaAnda(formiga ant, grafof grafo, double** matrizFer){
     ant.visitados.push_back(pVertice);
     int vAtual = pVertice;
-    double **matrizFeromonio;
-
-    // alocação da matriz de feromonios
-    matrizFeromonio = (double**) malloc(sizeof(double*) * ant.visitados.size());
-    
-    for(int i = 0; i < ant.visitados.size(); i++)
-        matrizFeromonio[i] = (double*) malloc(sizeof(double) * ant.visitados.size());
-
-    for(int i = 0; i < ant.visitados.size(); i++){
-        for(int j = 0; j < ant.visitados.size(); j++){
-            matrizFeromonio[i][j] = matrizFer[i][j];
-        }
-    }
 
     vector<double> probabilidades{0};
     //cout << "1 - probabildidades.size() no formigaAnda = " << probabilidades.size() << endl;
@@ -218,10 +209,10 @@ double** formigaAnda(formiga ant, grafof grafo, double** matrizFer){
                 probabilidades.push_back(0);
                 //cout << "entrou no == zero" << endl;
         }
-        for(double i: probabilidades){
+        /*for(double i: probabilidades){
             cout << "probabilidade = " << i << ' ';
         }
-        cout << endl;
+        cout << endl;*/
 
         //---------------------------------------------TÁ DANDO ERRO AQUIIIIIIIIIIIIIIIII----------------------------------------------------
         vAtual = escolhaAresta(probabilidades, ant.visitados);
@@ -242,9 +233,8 @@ double** formigaAnda(formiga ant, grafof grafo, double** matrizFer){
     double qtdAndou = 0;
 
     qtdAndou = formigaAndouQnt(ant, grafo);
-    formigaMFeromonio(matrizFeromonio, ant, qtdAndou);
+    formigaMFeromonio(matrizFer, ant, qtdAndou);
 
-    return matrizFeromonio;
 }
 
 void formigaMFeromonio(double** matrizFeromonio, formiga ant, double qtdAndou){
@@ -276,9 +266,9 @@ double probCalculo(int index, int j, grafof grafo){
         else
             soma += 0;
     } //; ==> laço for para calcular o somatorio de todas as probabilidades
-    cout << "somatorio = " << soma << endl;
+    //cout << "somatorio = " << soma << endl;
     p = (grafo.ferom[index][j] * nVisib) / (soma);
-    cout << "probabilidade calculada = " << p << endl;
+    //cout << "probabilidade calculada = " << p << endl;
 
     return p;
 }
