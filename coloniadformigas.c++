@@ -40,6 +40,7 @@ void atualizaMatriz(grafof rot);
 double randouble(int max, int min); 
 void formigaAnda(formiga ant, grafof grafo);
 double probCalculo(int index, int j, grafof grafo);
+int escolhaAresta(vector<double> probabilidades, vector<int> vertices);
 
 //#define factF 0.1
 //#define nIter 30
@@ -132,6 +133,28 @@ double randouble(int max, int min)
     return r;
 }
 
+int escolhaAresta(vector<double> probabilidades, vector<int> vertices){
+
+    int vertice{0};
+
+    vector<double> linha{0};
+    double ultimo_ponto{0};
+     for(int i = 0; i < probabilidades.size(); i++){
+         linha[i] = probabilidades[i] + ultimo_ponto;
+         ultimo_ponto = linha[i];
+         printf("%lf ", linha[i]);
+     }
+     printf("\n");
+     printf("chegay\n");
+
+
+    //for (int i = 0; i < vertices.size(); i++){
+        
+    //}
+
+    return vertice;
+}
+
 void formigaAnda(formiga ant, grafof grafo){
     ant.visitados.push_back(pVertice);
     int vAtual = pVertice;
@@ -150,7 +173,10 @@ void formigaAnda(formiga ant, grafof grafo){
 
         double prob = 0;
         for(int i = 0; i < grafo.vert; i++){
-            if(grafo.adj[vAtual][i] != 0 && !(any_of(ant.visitados.begin(), ant.visitados.end(), i))){
+
+            auto it = find(ant.visitados.begin(), ant.visitados.end(), i);
+
+            if(grafo.adj[vAtual][i] != 0 && ( it == ant.visitados.end())){
                 prob = (grafo.ferom[vAtual][i] * (1.0 / (grafo.adj[vAtual][i]))) / (somatorio);
                 probabilidades.push_back(prob);
             }
@@ -158,8 +184,13 @@ void formigaAnda(formiga ant, grafof grafo){
                 probabilidades.push_back(0);
             }
         }
-        vAtual = escolhaAresta(probabilidades, ant.visitados);
+        //printf("toaqui");
+
+        //---------------------------------------------TÁ DANDO ERRO AQUIIIIIIIIIIIIIIIII----------------------------------------------------
+        //vAtual = escolhaAresta(probabilidades, ant.visitados);
+        //-----------------------------------------------------------------------------------------------
         ant.visitados.push_back(vAtual);
+        
     }
 }
 
