@@ -138,12 +138,20 @@ int escolhaAresta(vector<double> probabilidades, vector<int> vertices){
     int vertice{0};
     double prob;
 
-    vector<double> linha;
+    vector<double> linha{0};
+    //linha.clear();
+
+    // --------------------------------------
+    // ele tá acumulando os dados na linha e quando dou clear
+    // no vetor linha ele fica rodando pra sempre (???????)
+    // socorroooooooo
+    // acho que arrumei um pouquinho mas tá bem estranho ainda
+
     double ultimo_ponto{0};
     for(int i = 0; i < probabilidades.size(); i++){
         linha.push_back(probabilidades[i] + ultimo_ponto);
-        ultimo_ponto = linha[i];
-        printf("%lf ", linha[i]);
+        ultimo_ponto = linha.back();
+        printf("linha[%d] = %lf ", i, linha.back());
     }
     printf("\n");
     printf("chegay\n");
@@ -156,7 +164,7 @@ int escolhaAresta(vector<double> probabilidades, vector<int> vertices){
         if(prob <= linha[i]){
             cout << i << endl;
             vertice = i;
-            printf("vertice escolhido = %d\n", vertice);
+            printf("vertice escolhido = %d\n", i);
             break;
         }
     }
@@ -166,7 +174,8 @@ int escolhaAresta(vector<double> probabilidades, vector<int> vertices){
 void formigaAnda(formiga ant, grafof grafo){
     ant.visitados.push_back(pVertice);
     int vAtual = pVertice;
-    vector<double> probabilidades;
+    vector<double> probabilidades{0};
+    probabilidades.clear();
 
     while(ant.visitados.back() != ultimoVertice){
         double somatorio = 0;
@@ -184,7 +193,7 @@ void formigaAnda(formiga ant, grafof grafo){
 
             auto it = find(ant.visitados.begin(), ant.visitados.end(), i);
 
-            if(grafo.adj[vAtual][i] != 0 && ( it == ant.visitados.end())){
+            if(grafo.adj[vAtual][i] != 0 && (it == ant.visitados.end())){
                 prob = (grafo.ferom[vAtual][i] * (1.0 / (grafo.adj[vAtual][i]))) / (somatorio);
                 probabilidades.push_back(prob);
             }
