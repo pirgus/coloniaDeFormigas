@@ -97,6 +97,9 @@ int main()
 
     while(count < nIter)
     {
+        cout << "***********************" << endl;
+        cout << "Iteracao " << count << endl;
+        cout << "***********************" << endl;
         // construir soluções possíveis
         formigaAnda(a1, rot); // criar funcao para fazer a rota da formiga e armazená-la
         formigaAnda(a2, rot);
@@ -139,7 +142,6 @@ int escolhaAresta(vector<double> probabilidades, vector<int> vertices){
     double prob;
 
     vector<double> linha{0};
-    //linha.clear();
 
     // --------------------------------------
     // ele tá acumulando os dados na linha e quando dou clear
@@ -148,18 +150,18 @@ int escolhaAresta(vector<double> probabilidades, vector<int> vertices){
     // acho que arrumei um pouquinho mas tá bem estranho ainda
 
     double ultimo_ponto{0};
+    //cout << "probabilidades.size() no escolhaAresta = " << probabilidades.size() << endl;
     for(int i = 0; i < probabilidades.size(); i++){
         linha.push_back(probabilidades[i] + ultimo_ponto);
         ultimo_ponto = linha.back();
-        printf("linha[%d] = %lf ", i, linha.back());
+        printf("linha[%d] = %lf\n", i, linha.back());
     }
-    printf("\n");
-    printf("chegay\n");
 
     prob = randouble(1, 0);
-    printf("probabilidade = %lf\n", prob);
+    //printf("probabilidade = %lf\n", prob);
 
-    //possivel problema -> sorteio do 0 
+    //possivel problema -> sorteio do 0  **=========> nao tem esse problema porque coloquei uma condicional no randouble que ele nao sorteia 0
+    cout << "linha.size() = " << linha.size() << endl;
     for(int i = 0; i < linha.size(); i++){
         if(prob <= linha[i]){
             cout << i << endl;
@@ -175,39 +177,33 @@ void formigaAnda(formiga ant, grafof grafo){
     ant.visitados.push_back(pVertice);
     int vAtual = pVertice;
     vector<double> probabilidades{0};
-    probabilidades.clear();
+    //cout << "1 - probabildidades.size() no formigaAnda = " << probabilidades.size() << endl;
 
     while(ant.visitados.back() != ultimoVertice){
-        double somatorio = 0;
-        for(int i = 0; i < grafo.vert; i++){
-            if(grafo.adj[vAtual][i] != 0){
-                somatorio += grafo.ferom[vAtual][i] * (1.0 / (grafo.adj[vAtual][i]));
-            }
-            else{
-                somatorio += 0;
-            }
-        }
-
         double prob = 0;
-        for(int i = 0; i < grafo.vert; i++){
-
+        //cout << "grafo.vert = " << grafo.vert - 1 << endl;
+        for(int i = 0; i < (grafo.vert - 1); i++){
             auto it = find(ant.visitados.begin(), ant.visitados.end(), i);
-
             if(grafo.adj[vAtual][i] != 0 && (it == ant.visitados.end())){
-                prob = (grafo.ferom[vAtual][i] * (1.0 / (grafo.adj[vAtual][i]))) / (somatorio);
+                prob = probCalculo(vAtual, i, grafo);
                 probabilidades.push_back(prob);
+                //cout << "entrou no dif de zero" << endl;
             }
-            else{
+            else
                 probabilidades.push_back(0);
-            }
+                //cout << "entrou no == zero" << endl;
         }
-        //printf("toaqui");
-
+        for(double i: probabilidades){
+            cout << "probabilidade = " << i << ' ';
+        }
+        cout << endl;
 
         //---------------------------------------------TÁ DANDO ERRO AQUIIIIIIIIIIIIIIIII----------------------------------------------------
         vAtual = escolhaAresta(probabilidades, ant.visitados);
-        //exit(0);
         //-----------------------------------------------------------------------------------------------
+        //cout << "vAtual = " << vAtual << endl;
+        probabilidades.clear(); // precisa dar clear se nao fica acumulando
+        //cout << "2 - probabildidades.size() no formigaAnda = " << probabilidades.size() << endl;
         ant.visitados.push_back(vAtual); 
         
     }
@@ -215,13 +211,15 @@ void formigaAnda(formiga ant, grafof grafo){
 
 double probCalculo(int index, int j, grafof grafo){
     double nVisib;
-    nVisib = 1.0 / grafo.adj[index][j];
-    double p;
+    nVisib = 1.0 / (grafo.adj[index][j]);
+    double p = 0;
     double soma = 0;
     for(int i = 0; i < grafo.vert; i++){
-        soma += (grafo.ferom[index][i] * (1.0/(grafo.adj[index][i])));
+            soma += (grafo.ferom[index][i] * (1.0/(grafo.adj[index][i])));
     } //; ==> laço for para calcular o somatorio de todas as probabilidades
+
     p = (grafo.ferom[index][j] * nVisib) / (soma);
+    cout << "probabilidade calculada = " << p << endl;
 
     return p;
 }
