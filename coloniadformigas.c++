@@ -133,7 +133,9 @@ int main()
         formigaAnda(a1, rot, matrizFormigas); // aqui ta dando problema, segmentation fault
         cout << "1a formiga andou" << endl;
         formigaAnda(a2, rot, matrizFormigas);
+        cout << "2a formiga andou" << endl;
         formigaAnda(a3, rot, matrizFormigas);
+        cout << "3a formiga andou" << endl;
 
         // atualizar matriz de feromonios
         atualizaMatriz(rot, matrizFormigas);
@@ -174,33 +176,35 @@ int escolhaAresta(vector<double> probabilidades){
     //roleta
     vector<double> linha;
 
+    // salva o ultimo ponto registrado para somar com a probabilidade atual
     double ultimo_ponto{0.0};
-    //cout << "probabilidades.size() no escolhaAresta = " << probabilidades.size() << endl;
+
     for(int i = 0; i < probabilidades.size(); i++){
         linha.push_back(probabilidades[i] + ultimo_ponto);
-        std::cout << "probabilidades[i]: " << probabilidades[i] << endl;
         ultimo_ponto = linha.back();
-        printf("linha[%d] = %lf\n", i, linha[i]);
     }
 
     prob = randouble(1, 0);
-    printf("probabilidade = %lf\n", prob);
 
-    //possivel problema -> sorteio do 0  **=========> nao tem esse problema porque coloquei uma condicional no randouble que ele nao sorteia 0
-    //cout << "linha.size() = " << linha.size() << endl;
+
+    // acho que aqui mora o problema, ele ja seleciona o primeiro que tenha probabilidade menor ou igual a linha[i]
     for(int i = 0; i < linha.size(); i++){
-        if(prob <= linha[i]){
-            //cout << i << endl;
+        if((prob > 0) && (prob <= linha[i])){
             vertice = i;
-            printf("vertice escolhido = %d\n", i);
             break;
         }
     }
-    return vertice;
+
+    if(vertice != 0)
+        return vertice;
+    else
+        return escolhaAresta(probabilidades);
 }
 
-void formigaAnda(formiga ant, grafof grafo, double** matrizFer){
+// MAIOR PROBLEMA AQUI ===== FORMIGA NAO PARA DE ESCOLHER UMA ARESTA PARA IR
 
+void formigaAnda(formiga ant, grafof grafo, double** matrizFer){
+    cout << "formiga começou a andar" << endl;
 
     ant.visitados.push_back(pVertice);
     int vAtual = pVertice;
@@ -210,9 +214,7 @@ void formigaAnda(formiga ant, grafof grafo, double** matrizFer){
     //cout << "1 - probabildidades.size() no formigaAnda = " << probabilidades.size() << endl;
 
     while(ant.visitados.back() != ultimoVertice){
-        // for (double i: probabilidades){
-        //     std::cout << i << " " << endl;
-        // }
+        
         double prob = 0;
         //cout << "grafo.vert = " << grafo.vert - 1 << endl;
         for(int i = 0; i < grafo.vert; i++){
@@ -221,23 +223,25 @@ void formigaAnda(formiga ant, grafof grafo, double** matrizFer){
             if(grafo.adj[vAtual][i] != 0 && (it == ant.visitados.end())){
                 prob = probCalculo(vAtual, i, grafo);
                 probabilidades.push_back(prob);
-                //cout << "entrou no dif de zero" << endl;
             }
             else
                 probabilidades.push_back(0);
-                //cout << "entrou no == zero" << endl;
         }
-        /*for(double i: probabilidades){
-            cout << "probabilidade = " << i << ' ';
-        }
-        cout << endl;*/
+
+        // for (double i: probabilidades){
+        //     std::cout << i << " " << endl;
+        // }
 
         //---------------------------------------------TÁ DANDO ERRO AQUIIIIIIIIIIIIIIIII----------------------------------------------------
         vAtual = escolhaAresta(probabilidades);
+        //cout << "escolheu uma aresta para a formiga ir" << endl;
+        //cout << "aresta = " << vAtual << endl;
+        // por que ta escolhendo aresta = 0???????????????????
         //-----------------------------------------------------------------------------------------------
+
+
         //cout << "vAtual = " << vAtual << endl;
         probabilidades.clear(); // precisa dar clear se nao fica acumulando
-        //cout << "2 - probabildidades.size() no formigaAnda = " << probabilidades.size() << endl;
         ant.visitados.push_back(vAtual); 
         
     }
@@ -251,7 +255,9 @@ void formigaAnda(formiga ant, grafof grafo, double** matrizFer){
     double qtdAndou = 0;
 
     qtdAndou = formigaAndouQnt(ant, grafo);
+    cout << "calculou fator de feromonio deixado pela formiga" << endl;
     formigaMFeromonio(matrizFer, ant, qtdAndou);
+    cout << "atualizou matriz de feromonio das formigas" << endl;
 
 }
 
