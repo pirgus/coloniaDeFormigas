@@ -36,11 +36,11 @@ typedef struct grafof
 } grafof;
 
 int randInt(int max, int min);
-void atualizaMatriz(grafof rot);
+void atualizaMatriz(grafof rot, double** matriz_formigas);
 double randouble(int max, int min); 
 void formigaAnda(formiga ant, grafof grafo, double** matrizFer);
 double probCalculo(int index, int j, grafof grafo);
-int escolhaAresta(vector<double> probabilidades, vector<int> vertices);
+int escolhaAresta(vector<double> probabilidades);
 double formigaAndouQnt(formiga ant, grafof grafo);
 void formigaMFeromonio(double** matrizFeromonio, formiga ant, double qtdAndou);
 
@@ -63,24 +63,20 @@ const int ultimoVertice = 8;
 int main()
 {
     // inicializar parâmetros
+    //formigas
     formiga a1, a2, a3;
+
+    //grafo que armazena a rota
+    //matriz de adjacência e matriz de feromônios
     grafof rot;
+
+    //controle de iterações
     int count = 0;
+
+
+    //matriz que armazena feromonios deixados pelas formigas
     double **matrizFormigas;
     srand(time(NULL));
-
-    matrizFormigas = (double**) malloc(sizeof(double*) * rot.vert);
-    for(int i = 0; i < rot.vert; i++){
-        matrizFormigas[i] = (double*) malloc(sizeof(double) * rot.vert);
-    }
-    cout << "alocou matrizFormigas" << endl;
-    // preencher com nadaaaa
-    for(int i = 0; i < rot.vert; i++){
-        for(int j = 0; j < rot.vert; j++){
-            matrizFormigas[i][j] = 0.0;
-        }
-    }
-
 
     // quantos vertices?
     scanf("%d", &rot.vert);
@@ -114,8 +110,21 @@ int main()
     // ----------------------------------
     cout << "leu matriz de adjacencia" << endl;
 
+    matrizFormigas = (double**) malloc(sizeof(double*) * rot.vert);
+    for(int i = 0; i < rot.vert; i++){
+        matrizFormigas[i] = (double*) malloc(sizeof(double) * rot.vert);
+    }
+    cout << "alocou matrizFormigas" << endl;
+
     while(count < nIter)
     {
+          // preencher com nadaaaa
+        for(int i = 0; i < rot.vert; i++){
+            for(int j = 0; j < rot.vert; j++){
+                matrizFormigas[i][j] = 0.0;
+            }
+        }
+
         cout << "***********************" << endl;
         cout << "Iteracao " << count << endl;
         cout << "***********************" << endl;
@@ -127,7 +136,7 @@ int main()
         formigaAnda(a3, rot, matrizFormigas);
 
         // atualizar matriz de feromonios
-        atualizaMatriz(rot);
+        atualizaMatriz(rot, matrizFormigas);
 
         // iterador++
         count++;
@@ -157,29 +166,31 @@ double randouble(int max, int min)
     return r;
 }
 
-int escolhaAresta(vector<double> probabilidades, vector<int> vertices){
+int escolhaAresta(vector<double> probabilidades){
 
     int vertice{0};
     double prob;
 
-    vector<double> linha{0};
+    //roleta
+    vector<double> linha;
 
-    double ultimo_ponto{0};
+    double ultimo_ponto{0.0};
     //cout << "probabilidades.size() no escolhaAresta = " << probabilidades.size() << endl;
     for(int i = 0; i < probabilidades.size(); i++){
         linha.push_back(probabilidades[i] + ultimo_ponto);
+        std::cout << "probabilidades[i]: " << probabilidades[i] << endl;
         ultimo_ponto = linha.back();
-        //printf("linha[%d] = %lf\n", i, linha.back());
+        printf("linha[%d] = %lf\n", i, linha[i]);
     }
 
     prob = randouble(1, 0);
-    //printf("probabilidade = %lf\n", prob);
+    printf("probabilidade = %lf\n", prob);
 
     //possivel problema -> sorteio do 0  **=========> nao tem esse problema porque coloquei uma condicional no randouble que ele nao sorteia 0
     //cout << "linha.size() = " << linha.size() << endl;
     for(int i = 0; i < linha.size(); i++){
         if(prob <= linha[i]){
-            cout << i << endl;
+            //cout << i << endl;
             vertice = i;
             printf("vertice escolhido = %d\n", i);
             break;
@@ -189,17 +200,24 @@ int escolhaAresta(vector<double> probabilidades, vector<int> vertices){
 }
 
 void formigaAnda(formiga ant, grafof grafo, double** matrizFer){
+
+
     ant.visitados.push_back(pVertice);
     int vAtual = pVertice;
 
-    vector<double> probabilidades{0};
+    vector<double> probabilidades;
+    
     //cout << "1 - probabildidades.size() no formigaAnda = " << probabilidades.size() << endl;
 
     while(ant.visitados.back() != ultimoVertice){
+        // for (double i: probabilidades){
+        //     std::cout << i << " " << endl;
+        // }
         double prob = 0;
         //cout << "grafo.vert = " << grafo.vert - 1 << endl;
-        for(int i = 0; i < (grafo.vert - 1); i++){
+        for(int i = 0; i < grafo.vert; i++){
             auto it = find(ant.visitados.begin(), ant.visitados.end(), i);
+            //se a aresta existe e a formiga não visitou ainda
             if(grafo.adj[vAtual][i] != 0 && (it == ant.visitados.end())){
                 prob = probCalculo(vAtual, i, grafo);
                 probabilidades.push_back(prob);
@@ -215,7 +233,7 @@ void formigaAnda(formiga ant, grafof grafo, double** matrizFer){
         cout << endl;*/
 
         //---------------------------------------------TÁ DANDO ERRO AQUIIIIIIIIIIIIIIIII----------------------------------------------------
-        vAtual = escolhaAresta(probabilidades, ant.visitados);
+        vAtual = escolhaAresta(probabilidades);
         //-----------------------------------------------------------------------------------------------
         //cout << "vAtual = " << vAtual << endl;
         probabilidades.clear(); // precisa dar clear se nao fica acumulando
@@ -273,12 +291,12 @@ double probCalculo(int index, int j, grafof grafo){
     return p;
 }
 
-void atualizaMatriz(grafof rot){
+void atualizaMatriz(grafof rot, double **matriz_formigas){
     for(int i = 0; i < rot.vert; i++)
     {
         for(int j = 0; j < rot.vert; j++)
         {
-            rot.ferom[i][j] = (1 - diminuiFer) * rot.ferom[i][j]; // + SOMATORIO DO FEROMONIO QUE TODAS AS FORMIGAS DEIXARAM NESSA ARESTA
+            rot.ferom[i][j] = ((1 - diminuiFer) * rot.ferom[i][j]) + matriz_formigas[i][j]; // + SOMATORIO DO FEROMONIO QUE TODAS AS FORMIGAS DEIXARAM NESSA ARESTA
         }
     }
 }
