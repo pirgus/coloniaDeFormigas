@@ -229,7 +229,7 @@ int escolhaAresta(vector<double> probabilidades){
 // MAIOR PROBLEMA AQUI ===== FORMIGA NAO PARA DE ESCOLHER UMA ARESTA PARA IR
 
 void formigaAnda(formiga ant, grafof grafo, double** matrizFer){
-    //cout << "formiga começou a andar" << endl;
+    cout << "formiga começou a andar" << endl;
 
     ant.visitados.push_back(pVertice);
     int vAtual = pVertice;
@@ -253,16 +253,17 @@ void formigaAnda(formiga ant, grafof grafo, double** matrizFer){
             else
                 probabilidades.push_back(0);
         }
-        //cout << "terminou de calcular as probabilidades" << endl;
-        //for (double i: probabilidades){
-        //    std::cout << i << " " << endl;
-        //}
+        cout << "terminou de calcular as probabilidades" << endl;
+        for (double i: probabilidades){
+            std::cout << i << " " << endl;
+        }
 
         //---------------------------------------------TÁ DANDO ERRO AQUIIIIIIIIIIIIIIIII----------------------------------------------------
         //cout << "vai calcular o proximo vertice" << endl;
-        vAtual = escolhaAresta(probabilidades);
-        //cout << "escolheu uma aresta para a formiga ir" << endl;
-        //cout << "aresta = " << vAtual << endl;
+        vAtual = escolhaAresta(probabilidades); // entendi o problema!! ele anda pelas arestas e chega em uma que nao tem nenhuma conexao com 
+                                                // a aresta 8 mas todas ja foram visitadas
+        cout << "escolheu uma aresta para a formiga ir" << endl;
+        cout << "aresta = " << vAtual << endl;
         //-----------------------------------------------------------------------------------------------
 
 

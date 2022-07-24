@@ -5,38 +5,119 @@ alocou matrizFormigas
 ***********************
 Iteracao 0
 ***********************
-distância percorrida: 33
-0 - 9 - 5 - 3 - 4 - 1 - 2 - 7 - 6 - 8 - 
-formiga 1 andou
-distância percorrida: 12
-0 - 4 - 2 - 8 - 
-formiga 2 andou
-distância percorrida: 17
-0 - 3 - 4 - 8 - 
-formiga 3 andou
-distância percorrida: 11
-0 - 5 - 9 - 8 - 
-formiga 4 andou
-distância percorrida: 12
-0 - 9 - 5 - 8 - 
-formiga 5 andou
-distância percorrida: 11
-0 - 4 - 3 - 8 - 
-formiga 6 andou
-distância percorrida: 29
-0 - 9 - 6 - 7 - 4 - 3 - 8 - 
-formiga 7 andou
-distância percorrida: 13
-0 - 4 - 3 - 9 - 8 - 
-formiga 8 andou
-distância percorrida: 29
-0 - 5 - 3 - 9 - 6 - 8 - 
-formiga 9 andou
-distância percorrida: 28
-0 - 3 - 4 - 1 - 2 - 7 - 6 - 9 - 5 - 8 - 
-formiga 10 andou
-distância percorrida: 28
-0 - 4 - 2 - 7 - 6 - 5 - 8 - 
-formiga 11 andou
-distância percorrida: 12
-0 - 9 - 5 - 8 - 
+formiga começou a andar
+terminou de calcular as probabilidades
+0 
+0 
+0 
+0.216216 
+0.324324 
+0.216216 
+0 
+0 
+0 
+0.243243 
+escolheu uma aresta para a formiga ir
+aresta = 9
+terminou de calcular as probabilidades
+0 
+0 
+0 
+0.0722166 
+0 
+0.361083 
+0.120361 
+0.0401204 
+0.361083 
+0 
+escolheu uma aresta para a formiga ir
+aresta = 5
+terminou de calcular as probabilidades
+0 
+0.0953101 
+0 
+0.0680787 
+0.0953101 
+0 
+0.0529501 
+0 
+0.15885 
+0 
+escolheu uma aresta para a formiga ir
+aresta = 1
+terminou de calcular as probabilidades
+0 
+0 
+0.618557 
+0 
+0.154639 
+0 
+0.103093 
+0 
+0 
+0 
+escolheu uma aresta para a formiga ir
+aresta = 2
+terminou de calcular as probabilidades
+0 
+0 
+0 
+0 
+0.0847458 
+0 
+0.0677966 
+0.338983 
+0.169492 
+0 
+escolheu uma aresta para a formiga ir
+aresta = 4
+terminou de calcular as probabilidades
+0 
+0 
+0 
+0.468489 
+0 
+0 
+0 
+0.0585611 
+0.0669269 
+0 
+escolheu uma aresta para a formiga ir
+aresta = 3
+terminou de calcular as probabilidades
+0 
+0 
+0 
+0 
+0 
+0 
+0.105044 
+0 
+0.131305 
+0 
+escolheu uma aresta para a formiga ir
+aresta = 6
+terminou de calcular as probabilidades
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0.141732 
+0.141732 
+0 
+escolheu uma aresta para a formiga ir
+aresta = 7
+terminou de calcular as probabilidades
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
