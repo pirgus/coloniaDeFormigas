@@ -6,20 +6,254 @@ alocou matrizFormigas
 Iteracao 0
 ***********************
 formiga começou a andar
+começou o processo de andar
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+terminou de calcular as probabilidades
+vai calcular o proximo vertice
+começou o escolha aresta
+escolheu uma aresta para a formiga ir
+aresta = 4
+começou o processo de andar
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+terminou de calcular as probabilidades
+vai calcular o proximo vertice
+começou o escolha aresta
+escolheu uma aresta para a formiga ir
+aresta = 7
+começou o processo de andar
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+terminou de calcular as probabilidades
+vai calcular o proximo vertice
+começou o escolha aresta
+escolheu uma aresta para a formiga ir
+aresta = 2
+começou o processo de andar
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+terminou de calcular as probabilidades
+vai calcular o proximo vertice
+começou o escolha aresta
+começou o escolha aresta
+escolheu uma aresta para a formiga ir
+aresta = 8
 visitados = 
-0 - 5 - 9 - 6 - 3 - 8 - 
+0 - 4 - 7 - 2 - 8 - 
+vai calcular quanto ela andou
 calculou fator de feromonio deixado pela formiga
 atualizou matriz de feromonio das formigas
 1a formiga andou
 formiga começou a andar
+começou o processo de andar
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+terminou de calcular as probabilidades
+vai calcular o proximo vertice
+começou o escolha aresta
+escolheu uma aresta para a formiga ir
+aresta = 5
+começou o processo de andar
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+terminou de calcular as probabilidades
+vai calcular o proximo vertice
+começou o escolha aresta
+escolheu uma aresta para a formiga ir
+aresta = 3
+começou o processo de andar
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+terminou de calcular as probabilidades
+vai calcular o proximo vertice
+começou o escolha aresta
+escolheu uma aresta para a formiga ir
+aresta = 8
 visitados = 
-0 - 5 - 9 - 8 - 
+0 - 5 - 3 - 8 - 
+vai calcular quanto ela andou
 calculou fator de feromonio deixado pela formiga
 atualizou matriz de feromonio das formigas
 2a formiga andou
 formiga começou a andar
+começou o processo de andar
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+terminou de calcular as probabilidades
+vai calcular o proximo vertice
+começou o escolha aresta
+escolheu uma aresta para a formiga ir
+aresta = 9
+começou o processo de andar
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+terminou de calcular as probabilidades
+vai calcular o proximo vertice
+começou o escolha aresta
+escolheu uma aresta para a formiga ir
+aresta = 5
+começou o processo de andar
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+terminou de calcular as probabilidades
+vai calcular o proximo vertice
+começou o escolha aresta
+começou o escolha aresta
+começou o escolha aresta
+começou o escolha aresta
+escolheu uma aresta para a formiga ir
+aresta = 3
+começou o processo de andar
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+terminou de calcular as probabilidades
+vai calcular o proximo vertice
+começou o escolha aresta
+escolheu uma aresta para a formiga ir
+aresta = 4
+começou o processo de andar
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+terminou de calcular as probabilidades
+vai calcular o proximo vertice
+começou o escolha aresta
+começou o escolha aresta
+começou o escolha aresta
+escolheu uma aresta para a formiga ir
+aresta = 1
+começou o processo de andar
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+terminou de calcular as probabilidades
+vai calcular o proximo vertice
+começou o escolha aresta
+escolheu uma aresta para a formiga ir
+aresta = 2
+começou o processo de andar
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+terminou de calcular as probabilidades
+vai calcular o proximo vertice
+começou o escolha aresta
+começou o escolha aresta
+escolheu uma aresta para a formiga ir
+aresta = 8
 visitados = 
-0 - 9 - 8 - 
+0 - 9 - 5 - 3 - 4 - 1 - 2 - 8 - 
+vai calcular quanto ela andou
 calculou fator de feromonio deixado pela formiga
 atualizou matriz de feromonio das formigas
 3a formiga andou
@@ -27,20 +261,200 @@ atualizou matriz de feromonio das formigas
 Iteracao 1
 ***********************
 formiga começou a andar
+começou o processo de andar
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+terminou de calcular as probabilidades
+vai calcular o proximo vertice
+começou o escolha aresta
+escolheu uma aresta para a formiga ir
+aresta = 4
+começou o processo de andar
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+terminou de calcular as probabilidades
+vai calcular o proximo vertice
+começou o escolha aresta
+escolheu uma aresta para a formiga ir
+aresta = 1
+começou o processo de andar
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+terminou de calcular as probabilidades
+vai calcular o proximo vertice
+começou o escolha aresta
+começou o escolha aresta
+escolheu uma aresta para a formiga ir
+aresta = 2
+começou o processo de andar
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+terminou de calcular as probabilidades
+vai calcular o proximo vertice
+começou o escolha aresta
+escolheu uma aresta para a formiga ir
+aresta = 8
 visitados = 
-0 - 5 - 9 - 8 - 
+0 - 4 - 1 - 2 - 8 - 
+vai calcular quanto ela andou
 calculou fator de feromonio deixado pela formiga
 atualizou matriz de feromonio das formigas
 1a formiga andou
 formiga começou a andar
+começou o processo de andar
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+terminou de calcular as probabilidades
+vai calcular o proximo vertice
+começou o escolha aresta
+escolheu uma aresta para a formiga ir
+aresta = 4
+começou o processo de andar
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+terminou de calcular as probabilidades
+vai calcular o proximo vertice
+começou o escolha aresta
+escolheu uma aresta para a formiga ir
+aresta = 7
+começou o processo de andar
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+terminou de calcular as probabilidades
+vai calcular o proximo vertice
+começou o escolha aresta
+escolheu uma aresta para a formiga ir
+aresta = 2
+começou o processo de andar
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+terminou de calcular as probabilidades
+vai calcular o proximo vertice
+começou o escolha aresta
+escolheu uma aresta para a formiga ir
+aresta = 8
 visitados = 
-0 - 5 - 9 - 8 - 
+0 - 4 - 7 - 2 - 8 - 
+vai calcular quanto ela andou
 calculou fator de feromonio deixado pela formiga
 atualizou matriz de feromonio das formigas
 2a formiga andou
 formiga começou a andar
+começou o processo de andar
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+terminou de calcular as probabilidades
+vai calcular o proximo vertice
+começou o escolha aresta
+escolheu uma aresta para a formiga ir
+aresta = 9
+começou o processo de andar
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+terminou de calcular as probabilidades
+vai calcular o proximo vertice
+começou o escolha aresta
+escolheu uma aresta para a formiga ir
+aresta = 5
+começou o processo de andar
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+terminou de calcular as probabilidades
+vai calcular o proximo vertice
+começou o escolha aresta
+escolheu uma aresta para a formiga ir
+aresta = 8
 visitados = 
-0 - 5 - 9 - 8 - 
+0 - 9 - 5 - 8 - 
+vai calcular quanto ela andou
 calculou fator de feromonio deixado pela formiga
 atualizou matriz de feromonio das formigas
 3a formiga andou
@@ -48,20 +462,221 @@ atualizou matriz de feromonio das formigas
 Iteracao 2
 ***********************
 formiga começou a andar
+começou o processo de andar
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+terminou de calcular as probabilidades
+vai calcular o proximo vertice
+começou o escolha aresta
+escolheu uma aresta para a formiga ir
+aresta = 4
+começou o processo de andar
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+terminou de calcular as probabilidades
+vai calcular o proximo vertice
+começou o escolha aresta
+escolheu uma aresta para a formiga ir
+aresta = 1
+começou o processo de andar
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+terminou de calcular as probabilidades
+vai calcular o proximo vertice
+começou o escolha aresta
+começou o escolha aresta
+escolheu uma aresta para a formiga ir
+aresta = 2
+começou o processo de andar
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+terminou de calcular as probabilidades
+vai calcular o proximo vertice
+começou o escolha aresta
+escolheu uma aresta para a formiga ir
+aresta = 8
 visitados = 
-0 - 5 - 9 - 8 - 
+0 - 4 - 1 - 2 - 8 - 
+vai calcular quanto ela andou
 calculou fator de feromonio deixado pela formiga
 atualizou matriz de feromonio das formigas
 1a formiga andou
 formiga começou a andar
+começou o processo de andar
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+terminou de calcular as probabilidades
+vai calcular o proximo vertice
+começou o escolha aresta
+escolheu uma aresta para a formiga ir
+aresta = 9
+começou o processo de andar
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+terminou de calcular as probabilidades
+vai calcular o proximo vertice
+começou o escolha aresta
+escolheu uma aresta para a formiga ir
+aresta = 5
+começou o processo de andar
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+terminou de calcular as probabilidades
+vai calcular o proximo vertice
+começou o escolha aresta
+começou o escolha aresta
+escolheu uma aresta para a formiga ir
+aresta = 8
 visitados = 
-0 - 5 - 9 - 6 - 3 - 8 - 
+0 - 9 - 5 - 8 - 
+vai calcular quanto ela andou
 calculou fator de feromonio deixado pela formiga
 atualizou matriz de feromonio das formigas
 2a formiga andou
 formiga começou a andar
+começou o processo de andar
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+terminou de calcular as probabilidades
+vai calcular o proximo vertice
+começou o escolha aresta
+escolheu uma aresta para a formiga ir
+aresta = 4
+começou o processo de andar
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+terminou de calcular as probabilidades
+vai calcular o proximo vertice
+começou o escolha aresta
+escolheu uma aresta para a formiga ir
+aresta = 3
+começou o processo de andar
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+terminou de calcular as probabilidades
+vai calcular o proximo vertice
+começou o escolha aresta
+começou o escolha aresta
+começou o escolha aresta
+começou o escolha aresta
+escolheu uma aresta para a formiga ir
+aresta = 9
+começou o processo de andar
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+terminou de calcular as probabilidades
+vai calcular o proximo vertice
+começou o escolha aresta
+escolheu uma aresta para a formiga ir
+aresta = 5
+começou o processo de andar
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+terminou de calcular as probabilidades
+vai calcular o proximo vertice
+começou o escolha aresta
+começou o escolha aresta
+escolheu uma aresta para a formiga ir
+aresta = 8
 visitados = 
-0 - 9 - 8 - 
+0 - 4 - 3 - 9 - 5 - 8 - 
+vai calcular quanto ela andou
 calculou fator de feromonio deixado pela formiga
 atualizou matriz de feromonio das formigas
 3a formiga andou
@@ -69,20 +684,183 @@ atualizou matriz de feromonio das formigas
 Iteracao 3
 ***********************
 formiga começou a andar
+começou o processo de andar
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+terminou de calcular as probabilidades
+vai calcular o proximo vertice
+começou o escolha aresta
+escolheu uma aresta para a formiga ir
+aresta = 4
+começou o processo de andar
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+terminou de calcular as probabilidades
+vai calcular o proximo vertice
+começou o escolha aresta
+escolheu uma aresta para a formiga ir
+aresta = 1
+começou o processo de andar
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+terminou de calcular as probabilidades
+vai calcular o proximo vertice
+começou o escolha aresta
+escolheu uma aresta para a formiga ir
+aresta = 2
+começou o processo de andar
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+terminou de calcular as probabilidades
+vai calcular o proximo vertice
+começou o escolha aresta
+escolheu uma aresta para a formiga ir
+aresta = 8
 visitados = 
-0 - 5 - 9 - 8 - 
+0 - 4 - 1 - 2 - 8 - 
+vai calcular quanto ela andou
 calculou fator de feromonio deixado pela formiga
 atualizou matriz de feromonio das formigas
 1a formiga andou
 formiga começou a andar
+começou o processo de andar
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+terminou de calcular as probabilidades
+vai calcular o proximo vertice
+começou o escolha aresta
+escolheu uma aresta para a formiga ir
+aresta = 5
+começou o processo de andar
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+terminou de calcular as probabilidades
+vai calcular o proximo vertice
+começou o escolha aresta
+escolheu uma aresta para a formiga ir
+aresta = 8
 visitados = 
-0 - 5 - 9 - 8 - 
+0 - 5 - 8 - 
+vai calcular quanto ela andou
 calculou fator de feromonio deixado pela formiga
 atualizou matriz de feromonio das formigas
 2a formiga andou
 formiga começou a andar
+começou o processo de andar
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+terminou de calcular as probabilidades
+vai calcular o proximo vertice
+começou o escolha aresta
+escolheu uma aresta para a formiga ir
+aresta = 4
+começou o processo de andar
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+terminou de calcular as probabilidades
+vai calcular o proximo vertice
+começou o escolha aresta
+escolheu uma aresta para a formiga ir
+aresta = 1
+começou o processo de andar
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+terminou de calcular as probabilidades
+vai calcular o proximo vertice
+começou o escolha aresta
+escolheu uma aresta para a formiga ir
+aresta = 2
+começou o processo de andar
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+terminou de calcular as probabilidades
+vai calcular o proximo vertice
+começou o escolha aresta
+escolheu uma aresta para a formiga ir
+aresta = 8
 visitados = 
-0 - 9 - 8 - 
+0 - 4 - 1 - 2 - 8 - 
+vai calcular quanto ela andou
 calculou fator de feromonio deixado pela formiga
 atualizou matriz de feromonio das formigas
 3a formiga andou
@@ -90,20 +868,217 @@ atualizou matriz de feromonio das formigas
 Iteracao 4
 ***********************
 formiga começou a andar
+começou o processo de andar
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+terminou de calcular as probabilidades
+vai calcular o proximo vertice
+começou o escolha aresta
+escolheu uma aresta para a formiga ir
+aresta = 4
+começou o processo de andar
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+terminou de calcular as probabilidades
+vai calcular o proximo vertice
+começou o escolha aresta
+escolheu uma aresta para a formiga ir
+aresta = 7
+começou o processo de andar
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+terminou de calcular as probabilidades
+vai calcular o proximo vertice
+começou o escolha aresta
+escolheu uma aresta para a formiga ir
+aresta = 2
+começou o processo de andar
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+terminou de calcular as probabilidades
+vai calcular o proximo vertice
+começou o escolha aresta
+escolheu uma aresta para a formiga ir
+aresta = 8
 visitados = 
-0 - 9 - 8 - 
+0 - 4 - 7 - 2 - 8 - 
+vai calcular quanto ela andou
 calculou fator de feromonio deixado pela formiga
 atualizou matriz de feromonio das formigas
 1a formiga andou
 formiga começou a andar
+começou o processo de andar
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+terminou de calcular as probabilidades
+vai calcular o proximo vertice
+começou o escolha aresta
+escolheu uma aresta para a formiga ir
+aresta = 4
+começou o processo de andar
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+terminou de calcular as probabilidades
+vai calcular o proximo vertice
+começou o escolha aresta
+escolheu uma aresta para a formiga ir
+aresta = 1
+começou o processo de andar
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+terminou de calcular as probabilidades
+vai calcular o proximo vertice
+começou o escolha aresta
+escolheu uma aresta para a formiga ir
+aresta = 2
+começou o processo de andar
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+terminou de calcular as probabilidades
+vai calcular o proximo vertice
+começou o escolha aresta
+escolheu uma aresta para a formiga ir
+aresta = 8
 visitados = 
-0 - 5 - 9 - 8 - 
+0 - 4 - 1 - 2 - 8 - 
+vai calcular quanto ela andou
 calculou fator de feromonio deixado pela formiga
 atualizou matriz de feromonio das formigas
 2a formiga andou
 formiga começou a andar
+começou o processo de andar
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+terminou de calcular as probabilidades
+vai calcular o proximo vertice
+começou o escolha aresta
+escolheu uma aresta para a formiga ir
+aresta = 4
+começou o processo de andar
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+terminou de calcular as probabilidades
+vai calcular o proximo vertice
+começou o escolha aresta
+escolheu uma aresta para a formiga ir
+aresta = 3
+começou o processo de andar
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+terminou de calcular as probabilidades
+vai calcular o proximo vertice
+começou o escolha aresta
+começou o escolha aresta
+escolheu uma aresta para a formiga ir
+aresta = 5
+começou o processo de andar
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+terminou de calcular as probabilidades
+vai calcular o proximo vertice
+começou o escolha aresta
+começou o escolha aresta
+escolheu uma aresta para a formiga ir
+aresta = 8
 visitados = 
-0 - 5 - 9 - 8 - 
+0 - 4 - 3 - 5 - 8 - 
+vai calcular quanto ela andou
 calculou fator de feromonio deixado pela formiga
 atualizou matriz de feromonio das formigas
 3a formiga andou
@@ -111,20 +1086,183 @@ atualizou matriz de feromonio das formigas
 Iteracao 5
 ***********************
 formiga começou a andar
+começou o processo de andar
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+terminou de calcular as probabilidades
+vai calcular o proximo vertice
+começou o escolha aresta
+escolheu uma aresta para a formiga ir
+aresta = 4
+começou o processo de andar
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+terminou de calcular as probabilidades
+vai calcular o proximo vertice
+começou o escolha aresta
+escolheu uma aresta para a formiga ir
+aresta = 2
+começou o processo de andar
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+terminou de calcular as probabilidades
+vai calcular o proximo vertice
+começou o escolha aresta
+escolheu uma aresta para a formiga ir
+aresta = 8
 visitados = 
-0 - 4 - 7 - 6 - 3 - 8 - 
+0 - 4 - 2 - 8 - 
+vai calcular quanto ela andou
 calculou fator de feromonio deixado pela formiga
 atualizou matriz de feromonio das formigas
 1a formiga andou
 formiga começou a andar
+começou o processo de andar
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+terminou de calcular as probabilidades
+vai calcular o proximo vertice
+começou o escolha aresta
+escolheu uma aresta para a formiga ir
+aresta = 9
+começou o processo de andar
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+terminou de calcular as probabilidades
+vai calcular o proximo vertice
+começou o escolha aresta
+escolheu uma aresta para a formiga ir
+aresta = 5
+começou o processo de andar
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+terminou de calcular as probabilidades
+vai calcular o proximo vertice
+começou o escolha aresta
+escolheu uma aresta para a formiga ir
+aresta = 8
 visitados = 
-0 - 5 - 9 - 8 - 
+0 - 9 - 5 - 8 - 
+vai calcular quanto ela andou
 calculou fator de feromonio deixado pela formiga
 atualizou matriz de feromonio das formigas
 2a formiga andou
 formiga começou a andar
+começou o processo de andar
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+terminou de calcular as probabilidades
+vai calcular o proximo vertice
+começou o escolha aresta
+escolheu uma aresta para a formiga ir
+aresta = 4
+começou o processo de andar
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+terminou de calcular as probabilidades
+vai calcular o proximo vertice
+começou o escolha aresta
+escolheu uma aresta para a formiga ir
+aresta = 1
+começou o processo de andar
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+terminou de calcular as probabilidades
+vai calcular o proximo vertice
+começou o escolha aresta
+escolheu uma aresta para a formiga ir
+aresta = 2
+começou o processo de andar
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+terminou de calcular as probabilidades
+vai calcular o proximo vertice
+começou o escolha aresta
+escolheu uma aresta para a formiga ir
+aresta = 8
 visitados = 
-0 - 5 - 9 - 8 - 
+0 - 4 - 1 - 2 - 8 - 
+vai calcular quanto ela andou
 calculou fator de feromonio deixado pela formiga
 atualizou matriz de feromonio das formigas
 3a formiga andou
@@ -132,20 +1270,201 @@ atualizou matriz de feromonio das formigas
 Iteracao 6
 ***********************
 formiga começou a andar
+começou o processo de andar
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+terminou de calcular as probabilidades
+vai calcular o proximo vertice
+começou o escolha aresta
+escolheu uma aresta para a formiga ir
+aresta = 4
+começou o processo de andar
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+terminou de calcular as probabilidades
+vai calcular o proximo vertice
+começou o escolha aresta
+escolheu uma aresta para a formiga ir
+aresta = 1
+começou o processo de andar
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+terminou de calcular as probabilidades
+vai calcular o proximo vertice
+começou o escolha aresta
+escolheu uma aresta para a formiga ir
+aresta = 2
+começou o processo de andar
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+terminou de calcular as probabilidades
+vai calcular o proximo vertice
+começou o escolha aresta
+começou o escolha aresta
+escolheu uma aresta para a formiga ir
+aresta = 8
 visitados = 
-0 - 9 - 8 - 
+0 - 4 - 1 - 2 - 8 - 
+vai calcular quanto ela andou
 calculou fator de feromonio deixado pela formiga
 atualizou matriz de feromonio das formigas
 1a formiga andou
 formiga começou a andar
+começou o processo de andar
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+terminou de calcular as probabilidades
+vai calcular o proximo vertice
+começou o escolha aresta
+escolheu uma aresta para a formiga ir
+aresta = 4
+começou o processo de andar
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+terminou de calcular as probabilidades
+vai calcular o proximo vertice
+começou o escolha aresta
+escolheu uma aresta para a formiga ir
+aresta = 1
+começou o processo de andar
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+terminou de calcular as probabilidades
+vai calcular o proximo vertice
+começou o escolha aresta
+escolheu uma aresta para a formiga ir
+aresta = 2
+começou o processo de andar
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+terminou de calcular as probabilidades
+vai calcular o proximo vertice
+começou o escolha aresta
+começou o escolha aresta
+escolheu uma aresta para a formiga ir
+aresta = 8
 visitados = 
-0 - 5 - 9 - 8 - 
+0 - 4 - 1 - 2 - 8 - 
+vai calcular quanto ela andou
 calculou fator de feromonio deixado pela formiga
 atualizou matriz de feromonio das formigas
 2a formiga andou
 formiga começou a andar
+começou o processo de andar
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+terminou de calcular as probabilidades
+vai calcular o proximo vertice
+começou o escolha aresta
+escolheu uma aresta para a formiga ir
+aresta = 9
+começou o processo de andar
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+terminou de calcular as probabilidades
+vai calcular o proximo vertice
+começou o escolha aresta
+escolheu uma aresta para a formiga ir
+aresta = 5
+começou o processo de andar
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+terminou de calcular as probabilidades
+vai calcular o proximo vertice
+começou o escolha aresta
+escolheu uma aresta para a formiga ir
+aresta = 8
 visitados = 
-0 - 5 - 9 - 8 - 
+0 - 9 - 5 - 8 - 
+vai calcular quanto ela andou
 calculou fator de feromonio deixado pela formiga
 atualizou matriz de feromonio das formigas
 3a formiga andou
@@ -153,20 +1472,216 @@ atualizou matriz de feromonio das formigas
 Iteracao 7
 ***********************
 formiga começou a andar
+começou o processo de andar
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+terminou de calcular as probabilidades
+vai calcular o proximo vertice
+começou o escolha aresta
+escolheu uma aresta para a formiga ir
+aresta = 4
+começou o processo de andar
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+terminou de calcular as probabilidades
+vai calcular o proximo vertice
+começou o escolha aresta
+escolheu uma aresta para a formiga ir
+aresta = 1
+começou o processo de andar
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+terminou de calcular as probabilidades
+vai calcular o proximo vertice
+começou o escolha aresta
+escolheu uma aresta para a formiga ir
+aresta = 2
+começou o processo de andar
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+terminou de calcular as probabilidades
+vai calcular o proximo vertice
+começou o escolha aresta
+escolheu uma aresta para a formiga ir
+aresta = 8
 visitados = 
-0 - 9 - 8 - 
+0 - 4 - 1 - 2 - 8 - 
+vai calcular quanto ela andou
 calculou fator de feromonio deixado pela formiga
 atualizou matriz de feromonio das formigas
 1a formiga andou
 formiga começou a andar
+começou o processo de andar
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+terminou de calcular as probabilidades
+vai calcular o proximo vertice
+começou o escolha aresta
+escolheu uma aresta para a formiga ir
+aresta = 9
+começou o processo de andar
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+terminou de calcular as probabilidades
+vai calcular o proximo vertice
+começou o escolha aresta
+escolheu uma aresta para a formiga ir
+aresta = 6
+começou o processo de andar
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+terminou de calcular as probabilidades
+vai calcular o proximo vertice
+começou o escolha aresta
+começou o escolha aresta
+escolheu uma aresta para a formiga ir
+aresta = 3
+começou o processo de andar
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+terminou de calcular as probabilidades
+vai calcular o proximo vertice
+começou o escolha aresta
+escolheu uma aresta para a formiga ir
+aresta = 5
+começou o processo de andar
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+terminou de calcular as probabilidades
+vai calcular o proximo vertice
+começou o escolha aresta
+escolheu uma aresta para a formiga ir
+aresta = 8
 visitados = 
-0 - 5 - 9 - 8 - 
+0 - 9 - 6 - 3 - 5 - 8 - 
+vai calcular quanto ela andou
 calculou fator de feromonio deixado pela formiga
 atualizou matriz de feromonio das formigas
 2a formiga andou
 formiga começou a andar
+começou o processo de andar
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+terminou de calcular as probabilidades
+vai calcular o proximo vertice
+começou o escolha aresta
+escolheu uma aresta para a formiga ir
+aresta = 4
+começou o processo de andar
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+terminou de calcular as probabilidades
+vai calcular o proximo vertice
+começou o escolha aresta
+escolheu uma aresta para a formiga ir
+aresta = 2
+começou o processo de andar
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+terminou de calcular as probabilidades
+vai calcular o proximo vertice
+começou o escolha aresta
+escolheu uma aresta para a formiga ir
+aresta = 8
 visitados = 
-0 - 3 - 9 - 8 - 
+0 - 4 - 2 - 8 - 
+vai calcular quanto ela andou
 calculou fator de feromonio deixado pela formiga
 atualizou matriz de feromonio das formigas
 3a formiga andou
@@ -174,20 +1689,231 @@ atualizou matriz de feromonio das formigas
 Iteracao 8
 ***********************
 formiga começou a andar
+começou o processo de andar
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+terminou de calcular as probabilidades
+vai calcular o proximo vertice
+começou o escolha aresta
+escolheu uma aresta para a formiga ir
+aresta = 5
+começou o processo de andar
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+terminou de calcular as probabilidades
+vai calcular o proximo vertice
+começou o escolha aresta
+escolheu uma aresta para a formiga ir
+aresta = 8
 visitados = 
-0 - 5 - 9 - 8 - 
+0 - 5 - 8 - 
+vai calcular quanto ela andou
 calculou fator de feromonio deixado pela formiga
 atualizou matriz de feromonio das formigas
 1a formiga andou
 formiga começou a andar
+começou o processo de andar
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+terminou de calcular as probabilidades
+vai calcular o proximo vertice
+começou o escolha aresta
+escolheu uma aresta para a formiga ir
+aresta = 9
+começou o processo de andar
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+terminou de calcular as probabilidades
+vai calcular o proximo vertice
+começou o escolha aresta
+escolheu uma aresta para a formiga ir
+aresta = 5
+começou o processo de andar
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+terminou de calcular as probabilidades
+vai calcular o proximo vertice
+começou o escolha aresta
+escolheu uma aresta para a formiga ir
+aresta = 3
+começou o processo de andar
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+terminou de calcular as probabilidades
+vai calcular o proximo vertice
+começou o escolha aresta
+escolheu uma aresta para a formiga ir
+aresta = 4
+começou o processo de andar
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+terminou de calcular as probabilidades
+vai calcular o proximo vertice
+começou o escolha aresta
+escolheu uma aresta para a formiga ir
+aresta = 7
+começou o processo de andar
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+terminou de calcular as probabilidades
+vai calcular o proximo vertice
+começou o escolha aresta
+escolheu uma aresta para a formiga ir
+aresta = 2
+começou o processo de andar
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+terminou de calcular as probabilidades
+vai calcular o proximo vertice
+começou o escolha aresta
+escolheu uma aresta para a formiga ir
+aresta = 8
 visitados = 
-0 - 5 - 9 - 8 - 
+0 - 9 - 5 - 3 - 4 - 7 - 2 - 8 - 
+vai calcular quanto ela andou
 calculou fator de feromonio deixado pela formiga
 atualizou matriz de feromonio das formigas
 2a formiga andou
 formiga começou a andar
+começou o processo de andar
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+terminou de calcular as probabilidades
+vai calcular o proximo vertice
+começou o escolha aresta
+escolheu uma aresta para a formiga ir
+aresta = 4
+começou o processo de andar
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+terminou de calcular as probabilidades
+vai calcular o proximo vertice
+começou o escolha aresta
+escolheu uma aresta para a formiga ir
+aresta = 1
+começou o processo de andar
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+terminou de calcular as probabilidades
+vai calcular o proximo vertice
+começou o escolha aresta
+escolheu uma aresta para a formiga ir
+aresta = 2
+começou o processo de andar
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+terminou de calcular as probabilidades
+vai calcular o proximo vertice
+começou o escolha aresta
+escolheu uma aresta para a formiga ir
+aresta = 8
 visitados = 
-0 - 5 - 9 - 8 - 
+0 - 4 - 1 - 2 - 8 - 
+vai calcular quanto ela andou
 calculou fator de feromonio deixado pela formiga
 atualizou matriz de feromonio das formigas
 3a formiga andou
@@ -195,20 +1921,183 @@ atualizou matriz de feromonio das formigas
 Iteracao 9
 ***********************
 formiga começou a andar
+começou o processo de andar
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+terminou de calcular as probabilidades
+vai calcular o proximo vertice
+começou o escolha aresta
+escolheu uma aresta para a formiga ir
+aresta = 4
+começou o processo de andar
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+terminou de calcular as probabilidades
+vai calcular o proximo vertice
+começou o escolha aresta
+escolheu uma aresta para a formiga ir
+aresta = 1
+começou o processo de andar
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+terminou de calcular as probabilidades
+vai calcular o proximo vertice
+começou o escolha aresta
+escolheu uma aresta para a formiga ir
+aresta = 2
+começou o processo de andar
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+terminou de calcular as probabilidades
+vai calcular o proximo vertice
+começou o escolha aresta
+escolheu uma aresta para a formiga ir
+aresta = 8
 visitados = 
-0 - 5 - 9 - 8 - 
+0 - 4 - 1 - 2 - 8 - 
+vai calcular quanto ela andou
 calculou fator de feromonio deixado pela formiga
 atualizou matriz de feromonio das formigas
 1a formiga andou
 formiga começou a andar
+começou o processo de andar
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+terminou de calcular as probabilidades
+vai calcular o proximo vertice
+começou o escolha aresta
+escolheu uma aresta para a formiga ir
+aresta = 9
+começou o processo de andar
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+terminou de calcular as probabilidades
+vai calcular o proximo vertice
+começou o escolha aresta
+escolheu uma aresta para a formiga ir
+aresta = 5
+começou o processo de andar
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+terminou de calcular as probabilidades
+vai calcular o proximo vertice
+começou o escolha aresta
+escolheu uma aresta para a formiga ir
+aresta = 8
 visitados = 
-0 - 5 - 9 - 8 - 
+0 - 9 - 5 - 8 - 
+vai calcular quanto ela andou
 calculou fator de feromonio deixado pela formiga
 atualizou matriz de feromonio das formigas
 2a formiga andou
 formiga começou a andar
+começou o processo de andar
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+terminou de calcular as probabilidades
+vai calcular o proximo vertice
+começou o escolha aresta
+escolheu uma aresta para a formiga ir
+aresta = 9
+começou o processo de andar
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+terminou de calcular as probabilidades
+vai calcular o proximo vertice
+começou o escolha aresta
+escolheu uma aresta para a formiga ir
+aresta = 5
+começou o processo de andar
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+terminou de calcular as probabilidades
+vai calcular o proximo vertice
+começou o escolha aresta
+escolheu uma aresta para a formiga ir
+aresta = 8
 visitados = 
-0 - 5 - 9 - 8 - 
+0 - 9 - 5 - 8 - 
+vai calcular quanto ela andou
 calculou fator de feromonio deixado pela formiga
 atualizou matriz de feromonio das formigas
 3a formiga andou
@@ -216,419 +2105,102 @@ atualizou matriz de feromonio das formigas
 Iteracao 10
 ***********************
 formiga começou a andar
+começou o processo de andar
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+terminou de calcular as probabilidades
+vai calcular o proximo vertice
+começou o escolha aresta
+escolheu uma aresta para a formiga ir
+aresta = 9
+começou o processo de andar
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+terminou de calcular as probabilidades
+vai calcular o proximo vertice
+começou o escolha aresta
+escolheu uma aresta para a formiga ir
+aresta = 5
+começou o processo de andar
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+terminou de calcular as probabilidades
+vai calcular o proximo vertice
+começou o escolha aresta
+escolheu uma aresta para a formiga ir
+aresta = 3
+começou o processo de andar
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+terminou de calcular as probabilidades
+vai calcular o proximo vertice
+começou o escolha aresta
+escolheu uma aresta para a formiga ir
+aresta = 4
+começou o processo de andar
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+terminou de calcular as probabilidades
+vai calcular o proximo vertice
+começou o escolha aresta
+escolheu uma aresta para a formiga ir
+aresta = 2
+começou o processo de andar
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+começando o calculo de probabilidades
+terminou de calcular as probabilidades
+vai calcular o proximo vertice
+começou o escolha aresta
+escolheu uma aresta para a formiga ir
+aresta = 8
 visitados = 
-0 - 5 - 9 - 8 - 
-calculou fator de feromonio deixado pela formiga
-atualizou matriz de feromonio das formigas
-1a formiga andou
-formiga começou a andar
-visitados = 
-0 - 5 - 9 - 8 - 
-calculou fator de feromonio deixado pela formiga
-atualizou matriz de feromonio das formigas
-2a formiga andou
-formiga começou a andar
-visitados = 
-0 - 5 - 9 - 8 - 
-calculou fator de feromonio deixado pela formiga
-atualizou matriz de feromonio das formigas
-3a formiga andou
-***********************
-Iteracao 11
-***********************
-formiga começou a andar
-visitados = 
-0 - 5 - 9 - 8 - 
-calculou fator de feromonio deixado pela formiga
-atualizou matriz de feromonio das formigas
-1a formiga andou
-formiga começou a andar
-visitados = 
-0 - 9 - 8 - 
-calculou fator de feromonio deixado pela formiga
-atualizou matriz de feromonio das formigas
-2a formiga andou
-formiga começou a andar
-visitados = 
-0 - 9 - 8 - 
-calculou fator de feromonio deixado pela formiga
-atualizou matriz de feromonio das formigas
-3a formiga andou
-***********************
-Iteracao 12
-***********************
-formiga começou a andar
-visitados = 
-0 - 5 - 9 - 8 - 
-calculou fator de feromonio deixado pela formiga
-atualizou matriz de feromonio das formigas
-1a formiga andou
-formiga começou a andar
-visitados = 
-0 - 5 - 9 - 8 - 
-calculou fator de feromonio deixado pela formiga
-atualizou matriz de feromonio das formigas
-2a formiga andou
-formiga começou a andar
-visitados = 
-0 - 5 - 9 - 8 - 
-calculou fator de feromonio deixado pela formiga
-atualizou matriz de feromonio das formigas
-3a formiga andou
-***********************
-Iteracao 13
-***********************
-formiga começou a andar
-visitados = 
-0 - 5 - 9 - 8 - 
-calculou fator de feromonio deixado pela formiga
-atualizou matriz de feromonio das formigas
-1a formiga andou
-formiga começou a andar
-visitados = 
-0 - 5 - 9 - 8 - 
-calculou fator de feromonio deixado pela formiga
-atualizou matriz de feromonio das formigas
-2a formiga andou
-formiga começou a andar
-visitados = 
-0 - 5 - 9 - 8 - 
-calculou fator de feromonio deixado pela formiga
-atualizou matriz de feromonio das formigas
-3a formiga andou
-***********************
-Iteracao 14
-***********************
-formiga começou a andar
-visitados = 
-0 - 5 - 9 - 8 - 
-calculou fator de feromonio deixado pela formiga
-atualizou matriz de feromonio das formigas
-1a formiga andou
-formiga começou a andar
-visitados = 
-0 - 5 - 9 - 8 - 
-calculou fator de feromonio deixado pela formiga
-atualizou matriz de feromonio das formigas
-2a formiga andou
-formiga começou a andar
-visitados = 
-0 - 9 - 8 - 
-calculou fator de feromonio deixado pela formiga
-atualizou matriz de feromonio das formigas
-3a formiga andou
-***********************
-Iteracao 15
-***********************
-formiga começou a andar
-visitados = 
-0 - 9 - 8 - 
-calculou fator de feromonio deixado pela formiga
-atualizou matriz de feromonio das formigas
-1a formiga andou
-formiga começou a andar
-visitados = 
-0 - 9 - 8 - 
-calculou fator de feromonio deixado pela formiga
-atualizou matriz de feromonio das formigas
-2a formiga andou
-formiga começou a andar
-visitados = 
-0 - 9 - 8 - 
-calculou fator de feromonio deixado pela formiga
-atualizou matriz de feromonio das formigas
-3a formiga andou
-***********************
-Iteracao 16
-***********************
-formiga começou a andar
-visitados = 
-0 - 4 - 7 - 2 - 1 - 5 - 9 - 8 - 
-calculou fator de feromonio deixado pela formiga
-atualizou matriz de feromonio das formigas
-1a formiga andou
-formiga começou a andar
-visitados = 
-0 - 9 - 8 - 
-calculou fator de feromonio deixado pela formiga
-atualizou matriz de feromonio das formigas
-2a formiga andou
-formiga começou a andar
-visitados = 
-0 - 9 - 8 - 
-calculou fator de feromonio deixado pela formiga
-atualizou matriz de feromonio das formigas
-3a formiga andou
-***********************
-Iteracao 17
-***********************
-formiga começou a andar
-visitados = 
-0 - 3 - 8 - 
-calculou fator de feromonio deixado pela formiga
-atualizou matriz de feromonio das formigas
-1a formiga andou
-formiga começou a andar
-visitados = 
-0 - 5 - 9 - 8 - 
-calculou fator de feromonio deixado pela formiga
-atualizou matriz de feromonio das formigas
-2a formiga andou
-formiga começou a andar
-visitados = 
-0 - 5 - 9 - 8 - 
-calculou fator de feromonio deixado pela formiga
-atualizou matriz de feromonio das formigas
-3a formiga andou
-***********************
-Iteracao 18
-***********************
-formiga começou a andar
-visitados = 
-0 - 9 - 8 - 
-calculou fator de feromonio deixado pela formiga
-atualizou matriz de feromonio das formigas
-1a formiga andou
-formiga começou a andar
-visitados = 
-0 - 9 - 8 - 
-calculou fator de feromonio deixado pela formiga
-atualizou matriz de feromonio das formigas
-2a formiga andou
-formiga começou a andar
-visitados = 
-0 - 9 - 8 - 
-calculou fator de feromonio deixado pela formiga
-atualizou matriz de feromonio das formigas
-3a formiga andou
-***********************
-Iteracao 19
-***********************
-formiga começou a andar
-visitados = 
-0 - 5 - 9 - 8 - 
-calculou fator de feromonio deixado pela formiga
-atualizou matriz de feromonio das formigas
-1a formiga andou
-formiga começou a andar
-visitados = 
-0 - 9 - 8 - 
-calculou fator de feromonio deixado pela formiga
-atualizou matriz de feromonio das formigas
-2a formiga andou
-formiga começou a andar
-visitados = 
-0 - 5 - 9 - 8 - 
-calculou fator de feromonio deixado pela formiga
-atualizou matriz de feromonio das formigas
-3a formiga andou
-***********************
-Iteracao 20
-***********************
-formiga começou a andar
-visitados = 
-0 - 5 - 9 - 8 - 
-calculou fator de feromonio deixado pela formiga
-atualizou matriz de feromonio das formigas
-1a formiga andou
-formiga começou a andar
-visitados = 
-0 - 5 - 9 - 8 - 
-calculou fator de feromonio deixado pela formiga
-atualizou matriz de feromonio das formigas
-2a formiga andou
-formiga começou a andar
-visitados = 
-0 - 9 - 8 - 
-calculou fator de feromonio deixado pela formiga
-atualizou matriz de feromonio das formigas
-3a formiga andou
-***********************
-Iteracao 21
-***********************
-formiga começou a andar
-visitados = 
-0 - 5 - 9 - 8 - 
-calculou fator de feromonio deixado pela formiga
-atualizou matriz de feromonio das formigas
-1a formiga andou
-formiga começou a andar
-visitados = 
-0 - 5 - 9 - 8 - 
-calculou fator de feromonio deixado pela formiga
-atualizou matriz de feromonio das formigas
-2a formiga andou
-formiga começou a andar
-visitados = 
-0 - 5 - 9 - 8 - 
-calculou fator de feromonio deixado pela formiga
-atualizou matriz de feromonio das formigas
-3a formiga andou
-***********************
-Iteracao 22
-***********************
-formiga começou a andar
-visitados = 
-0 - 5 - 9 - 8 - 
-calculou fator de feromonio deixado pela formiga
-atualizou matriz de feromonio das formigas
-1a formiga andou
-formiga começou a andar
-visitados = 
-0 - 3 - 8 - 
-calculou fator de feromonio deixado pela formiga
-atualizou matriz de feromonio das formigas
-2a formiga andou
-formiga começou a andar
-visitados = 
-0 - 9 - 8 - 
-calculou fator de feromonio deixado pela formiga
-atualizou matriz de feromonio das formigas
-3a formiga andou
-***********************
-Iteracao 23
-***********************
-formiga começou a andar
-visitados = 
-0 - 5 - 9 - 8 - 
-calculou fator de feromonio deixado pela formiga
-atualizou matriz de feromonio das formigas
-1a formiga andou
-formiga começou a andar
-visitados = 
-0 - 5 - 9 - 8 - 
-calculou fator de feromonio deixado pela formiga
-atualizou matriz de feromonio das formigas
-2a formiga andou
-formiga começou a andar
-visitados = 
-0 - 5 - 9 - 8 - 
-calculou fator de feromonio deixado pela formiga
-atualizou matriz de feromonio das formigas
-3a formiga andou
-***********************
-Iteracao 24
-***********************
-formiga começou a andar
-visitados = 
-0 - 3 - 9 - 8 - 
-calculou fator de feromonio deixado pela formiga
-atualizou matriz de feromonio das formigas
-1a formiga andou
-formiga começou a andar
-visitados = 
-0 - 5 - 9 - 8 - 
-calculou fator de feromonio deixado pela formiga
-atualizou matriz de feromonio das formigas
-2a formiga andou
-formiga começou a andar
-visitados = 
-0 - 9 - 8 - 
-calculou fator de feromonio deixado pela formiga
-atualizou matriz de feromonio das formigas
-3a formiga andou
-***********************
-Iteracao 25
-***********************
-formiga começou a andar
-visitados = 
-0 - 5 - 9 - 8 - 
-calculou fator de feromonio deixado pela formiga
-atualizou matriz de feromonio das formigas
-1a formiga andou
-formiga começou a andar
-visitados = 
-0 - 5 - 9 - 8 - 
-calculou fator de feromonio deixado pela formiga
-atualizou matriz de feromonio das formigas
-2a formiga andou
-formiga começou a andar
-visitados = 
-0 - 9 - 8 - 
-calculou fator de feromonio deixado pela formiga
-atualizou matriz de feromonio das formigas
-3a formiga andou
-***********************
-Iteracao 26
-***********************
-formiga começou a andar
-visitados = 
-0 - 5 - 9 - 8 - 
-calculou fator de feromonio deixado pela formiga
-atualizou matriz de feromonio das formigas
-1a formiga andou
-formiga começou a andar
-visitados = 
-0 - 5 - 9 - 8 - 
-calculou fator de feromonio deixado pela formiga
-atualizou matriz de feromonio das formigas
-2a formiga andou
-formiga começou a andar
-visitados = 
-0 - 5 - 9 - 8 - 
-calculou fator de feromonio deixado pela formiga
-atualizou matriz de feromonio das formigas
-3a formiga andou
-***********************
-Iteracao 27
-***********************
-formiga começou a andar
-visitados = 
-0 - 5 - 9 - 8 - 
-calculou fator de feromonio deixado pela formiga
-atualizou matriz de feromonio das formigas
-1a formiga andou
-formiga começou a andar
-visitados = 
-0 - 9 - 8 - 
-calculou fator de feromonio deixado pela formiga
-atualizou matriz de feromonio das formigas
-2a formiga andou
-formiga começou a andar
-visitados = 
-0 - 5 - 9 - 8 - 
-calculou fator de feromonio deixado pela formiga
-atualizou matriz de feromonio das formigas
-3a formiga andou
-***********************
-Iteracao 28
-***********************
-formiga começou a andar
-visitados = 
-0 - 5 - 9 - 8 - 
-calculou fator de feromonio deixado pela formiga
-atualizou matriz de feromonio das formigas
-1a formiga andou
-formiga começou a andar
-visitados = 
-0 - 9 - 8 - 
-calculou fator de feromonio deixado pela formiga
-atualizou matriz de feromonio das formigas
-2a formiga andou
-formiga começou a andar
-visitados = 
-0 - 5 - 9 - 8 - 
-calculou fator de feromonio deixado pela formiga
-atualizou matriz de feromonio das formigas
-3a formiga andou
-***********************
-Iteracao 29
-***********************
-formiga começou a andar
-visitados = 
-0 - 3 - 8 - 
-calculou fator de feromonio deixado pela formiga
-atualizou matriz de feromonio das formigas
-1a formiga andou
-formiga começou a andar
-visitados = 
-0 - 4 - 8 - 
-calculou fator de feromonio deixado pela formiga
-atualizou matriz de feromonio das formigas
-2a formiga andou
-formiga começou a andar
-visitados = 
-0 - 9 - 8 - 
-calculou fator de feromonio deixado pela formiga
-atualizou matriz de feromonio das formigas
-3a formiga andou
+0 - 9 - 5 - 3 - 4 - 2 - 8 - 
+vai calcular quanto ela andou
