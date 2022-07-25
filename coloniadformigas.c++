@@ -154,8 +154,7 @@ int main()
         // cout << "3a formiga andou" << endl;
         // formigaAnda(a4, rot, matrizFormigas);
         // cout << "4a formiga andou" << endl;
-        // formigaAnda(a5, rot, matrizFormigas);
-        // cout << "5a formiga andou" << endl;
+        // formigaAnda(a5, rot, matrizFormigas);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
         // atualizar matriz de feromonios
         atualizaMatriz(rot, matrizFormigas);
 
@@ -229,7 +228,7 @@ int escolhaAresta(vector<double> probabilidades){
 // MAIOR PROBLEMA AQUI ===== FORMIGA NAO PARA DE ESCOLHER UMA ARESTA PARA IR
 
 void formigaAnda(formiga ant, grafof grafo, double** matrizFer){
-    cout << "formiga começou a andar" << endl;
+    //cout << "formiga começou a andar" << endl;
 
     ant.visitados.push_back(pVertice);
     int vAtual = pVertice;
@@ -253,17 +252,24 @@ void formigaAnda(formiga ant, grafof grafo, double** matrizFer){
             else
                 probabilidades.push_back(0);
         }
-        cout << "terminou de calcular as probabilidades" << endl;
+        //cout << "terminou de calcular as probabilidades" << endl;
+        bool IS_ALL_ZERO = true;
         for (double i: probabilidades){
-            std::cout << i << " " << endl;
+            if (i != 0.0){
+                IS_ALL_ZERO = false;
+                break;
+            }
         }
 
+        if (IS_ALL_ZERO){
+            cout << "o que vc fez com a formiguinha do seu irmão? mati.\n";
+            return;
+        }
         //---------------------------------------------TÁ DANDO ERRO AQUIIIIIIIIIIIIIIIII----------------------------------------------------
         //cout << "vai calcular o proximo vertice" << endl;
-        vAtual = escolhaAresta(probabilidades); // entendi o problema!! ele anda pelas arestas e chega em uma que nao tem nenhuma conexao com 
-                                                // a aresta 8 mas todas ja foram visitadas
-        cout << "escolheu uma aresta para a formiga ir" << endl;
-        cout << "aresta = " << vAtual << endl;
+        vAtual = escolhaAresta(probabilidades);
+        //cout << "escolheu uma aresta para a formiga ir" << endl;
+        //cout << "aresta = " << vAtual << endl;
         //-----------------------------------------------------------------------------------------------
 
 
