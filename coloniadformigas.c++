@@ -142,7 +142,7 @@ int main()
         int aux = 1; 
         for(formiga i : formigas){
             formigaAnda(i, rot, matrizFormigas);
-            cout << "formiga " << aux << " andou\n";
+            //cout << "formiga " << aux << " andou\n";
             aux++;
         }
 
@@ -262,7 +262,11 @@ void formigaAnda(formiga ant, grafof grafo, double** matrizFer){
         }
 
         if (IS_ALL_ZERO){
-            cout << "o que vc fez com a formiguinha do seu irmão? mati.\n";
+            //cout << "o que vc fez com a formiguinha do seu irmão? mati.\n";
+            //cout << "a formiga caiu, mas ela vai tentar de novo com muita determinação" << endl;
+            ant.visitados.clear();
+            formigaAnda(ant, grafo, matrizFer);
+            //cout << "deu return" << endl;
             return;
         }
         //---------------------------------------------TÁ DANDO ERRO AQUIIIIIIIIIIIIIIIII----------------------------------------------------
@@ -280,11 +284,14 @@ void formigaAnda(formiga ant, grafof grafo, double** matrizFer){
     }
 
     //cout << "visitados = " << endl;
-    cout << "distância percorrida: " << distanciaFormiga(ant, grafo) << endl;
-    for(int i: ant.visitados){
-        cout << i << " - ";
-    }
-    cout << endl;
+    //cout << "distância percorrida: " << distanciaFormiga(ant, grafo) << endl;
+    // o cout abaixo é pra ficar mais facil de copiar os dados
+    cout << distanciaFormiga(ant, grafo) << endl;
+    
+    // for(int i: ant.visitados){
+    //     cout << i << " - ";
+    // }
+    // cout << endl;
 
     double qtdAndou = 0;
 
