@@ -15,7 +15,7 @@ o peso das arestas entre cada par de vértices
 
 /* 
 para rodar:::
-    g++ coloniadformigas.c++ -o coloniadformigas
+    g++ coloniadformigas.c++ -o coloniadformigas.o
     ./coloniadformigas < arquivoentrada.txt > arquivosaida.txt
 */
 
@@ -62,7 +62,7 @@ const int beta = 1;
 const int diminuiFer = 0.01;
 const int atualizaFer = 10;
 const int pVertice = 0;
-const int ultimoVertice = 90;
+const int ultimoVertice = 800;
 const int nFormigas = 30;
 
 int main()
@@ -125,6 +125,8 @@ int main()
         matrizFormigas[i] = (double*) malloc(sizeof(double) * rot.vert);
     }
     cout << "alocou matrizFormigas" << endl;
+
+    cout << "Vertice objetivo == " << ultimoVertice << endl;
 
     while(count < nIter)
     {
@@ -285,11 +287,12 @@ void formigaAnda(formiga ant, grafof grafo, double** matrizFer){
         
     }
 
-    //cout << "visitados = " << endl;
+
     //cout << "distância percorrida: " << distanciaFormiga(ant, grafo) << endl;
     // o cout abaixo é pra ficar mais facil de copiar os dados
     cout << distanciaFormiga(ant, grafo) << endl;
     
+    // cout << "visitados = " << endl;
     // for(int i: ant.visitados){
     //     cout << i << " - ";
     // }
