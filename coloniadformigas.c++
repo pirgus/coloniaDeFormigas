@@ -12,6 +12,15 @@ o peso das arestas entre cada par de vértices
 --> os grafos são não direcionados
 */
 
+
+/* 
+para rodar:::
+    g++ coloniadformigas.c++ -o coloniadformigas
+    ./coloniadformigas < arquivoentrada.txt > arquivosaida.txt
+*/
+
+// CUIDADO!!! com a constante ultimoVertice, pois precisa ser menor do que o número total de vertices no grafo!!!!
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <iostream>
@@ -46,13 +55,6 @@ void formigaMFeromonio(double** matrizFeromonio, formiga ant, double qtdAndou);
 int distanciaFormiga(formiga ant, grafof grafo);
 
 
-//#define factF 0.1
-//#define nIter 30
-//#define alfa 1
-//#define beta 1
-//#define diminuiFer 0.01
-//#define atualizaFer 10
-
 const double factF = 0.1;
 const int nIter = 60;
 const int alfa = 1;
@@ -60,7 +62,7 @@ const int beta = 1;
 const int diminuiFer = 0.01;
 const int atualizaFer = 10;
 const int pVertice = 0;
-const int ultimoVertice = 8;
+const int ultimoVertice = 90;
 const int nFormigas = 30;
 
 int main()
